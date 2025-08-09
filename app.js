@@ -38,38 +38,24 @@ const STATE = {
 };
 
 // ========= Config JSON =========
-// Si index.html et JSON sont dans le même repo/pages :
 const JSON_URL = "ifs-questions-full.json";
-// Si besoin d’un dépôt distant (dé-commente) :
 // const JSON_URL = "https://raw.githubusercontent.com/Visitune/QUIZZIFS/main/ifs-questions-full.json";
 
 // ========= Correctif “mojibake” (accents cassés) =========
-// Heuristique : si on voit des séquences 'Ã', 'Â', '¤', etc., on tente la conversion ISO-8859-1 -> UTF-8.
 const AUTO_FIX_MOJIBAKE = true;
 function looksMojibake(s){
   return /Ã.|Â.|â.|¤|Ô|Ð|Î|ø|å|é|�/.test(s);
 }
-// Ancienne astuce JS : ISO-8859-1 -> UTF-8 via escape/decodeURIComponent (suffisant pour nos contenus).
 function fixStr(s){
-  try {
-    return decodeURIComponent(escape(s));
-  } catch (e) {
-    return s;
-  }
+  try { return decodeURIComponent(escape(s)); } catch { return s; }
 }
 function deepFix(obj){
   if (obj == null) return obj;
-  if (typeof obj === 'string'){
-    return looksMojibake(obj) ? fixStr(obj) : obj;
-  }
-  if (Array.isArray(obj)){
-    return obj.map(deepFix);
-  }
+  if (typeof obj === 'string') return looksMojibake(obj) ? fixStr(obj) : obj;
+  if (Array.isArray(obj)) return obj.map(deepFix);
   if (typeof obj === 'object'){
     const out = {};
-    for (const k of Object.keys(obj)){
-      out[k] = deepFix(obj[k]);
-    }
+    for (const k of Object.keys(obj)) out[k] = deepFix(obj[k]);
     return out;
   }
   return obj;
@@ -83,19 +69,15 @@ async function loadQuestions(){
   if(!res.ok) throw new Error('HTTP '+res.status);
   let data = await res.json();
 
-  // Normalisation structure
   if (!Array.isArray(data)) {
     data = { metadata: data.metadata || {}, questions: data.questions || [] };
   } else {
     data = { metadata: {}, questions: data };
   }
 
-  // Correctif d’accents si nécessaire
   if (AUTO_FIX_MOJIBAKE) {
     const sample = JSON.stringify(data.questions.slice(0, 5));
-    if (looksMojibake(sample)) {
-      data = deepFix(data);
-    }
+    if (looksMojibake(sample)) data = deepFix(data);
   }
 
   if(!Array.isArray(data.questions) || data.questions.length===0) {
@@ -139,12 +121,10 @@ function renderWelcome(meta, picked){
   $('#stat-seed').textContent = STATE.seed;
   const cats = [...new Set(picked.map(q=>q.category).filter(Boolean))];
   $('#stat-cats').textContent = cats.length.toString();
-  const chips = $('#chips');
-  chips.innerHTML = '';
+  const chips = $('#chips'); chips.innerHTML = '';
   cats.slice(0, 30).forEach(c=>{
     const t = el('span', {class:'tag', style:'background:#eef6ff; color:#024eb8;'});
-    t.textContent = c;
-    chips.append(t);
+    t.textContent = c; chips.append(t);
   });
 }
 
@@ -248,7 +228,7 @@ function renderReview(){
       if(k === q.correctAnswer) cls.push('correct');
       if(STATE.answers[i] === k) cls.push('user');
       if(STATE.answers[i] === k && k !== q.correctAnswer) cls.push('incorrect');
-      const line = el('div', {class:cls.join(' ')'});
+      const line = el('div', {class:cls.join(' ')});
       line.innerHTML = `<i class="fa-regular fa-circle-check"></i> ${t}`;
       wrap.append(line);
     });
