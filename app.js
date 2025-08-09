@@ -38,11 +38,71 @@ const STATE = {
 };
 
 // ========= Config JSON =========
-// Pour GitHub Pages (même dossier que index.html) :
+// Si index.html et JSON sont dans le même repo/pages :
 const JSON_URL = "ifs-questions-full.json";
-
-// Si tu veux charger depuis un autre dépôt, dé-commente :
+// Si besoin d’un dépôt distant (dé-commente) :
 // const JSON_URL = "https://raw.githubusercontent.com/Visitune/QUIZZIFS/main/ifs-questions-full.json";
+
+// ========= Correctif “mojibake” (accents cassés) =========
+// Heuristique : si on voit des séquences 'Ã', 'Â', '¤', etc., on tente la conversion ISO-8859-1 -> UTF-8.
+const AUTO_FIX_MOJIBAKE = true;
+function looksMojibake(s){
+  return /Ã.|Â.|â.|¤|Ô|Ð|Î|ø|å|é|�/.test(s);
+}
+// Ancienne astuce JS : ISO-8859-1 -> UTF-8 via escape/decodeURIComponent (suffisant pour nos contenus).
+function fixStr(s){
+  try {
+    return decodeURIComponent(escape(s));
+  } catch (e) {
+    return s;
+  }
+}
+function deepFix(obj){
+  if (obj == null) return obj;
+  if (typeof obj === 'string'){
+    return looksMojibake(obj) ? fixStr(obj) : obj;
+  }
+  if (Array.isArray(obj)){
+    return obj.map(deepFix);
+  }
+  if (typeof obj === 'object'){
+    const out = {};
+    for (const k of Object.keys(obj)){
+      out[k] = deepFix(obj[k]);
+    }
+    return out;
+  }
+  return obj;
+}
+
+// ========= Data loading =========
+async function loadQuestions(){
+  $('#load-error').style.display='none';
+  $('#load-msg').textContent = 'Récupération du fichier depuis le dépôt…';
+  const res = await fetch(JSON_URL, { cache: 'no-store' });
+  if(!res.ok) throw new Error('HTTP '+res.status);
+  let data = await res.json();
+
+  // Normalisation structure
+  if (!Array.isArray(data)) {
+    data = { metadata: data.metadata || {}, questions: data.questions || [] };
+  } else {
+    data = { metadata: {}, questions: data };
+  }
+
+  // Correctif d’accents si nécessaire
+  if (AUTO_FIX_MOJIBAKE) {
+    const sample = JSON.stringify(data.questions.slice(0, 5));
+    if (looksMojibake(sample)) {
+      data = deepFix(data);
+    }
+  }
+
+  if(!Array.isArray(data.questions) || data.questions.length===0) {
+    throw new Error('Aucune question trouvée');
+  }
+  return data;
+}
 
 // ========= RNG =========
 function hashSeed(s){
@@ -57,18 +117,6 @@ function mulberry32(a){
     t ^= t + Math.imul(t ^ t>>>7, t | 61);
     return ((t ^ t>>>14) >>> 0) / 4294967296;
   }
-}
-
-// ========= Data loading =========
-async function loadQuestions(){
-  $('#load-error').style.display='none';
-  $('#load-msg').textContent = 'Récupération du fichier depuis le dépôt…';
-  const res = await fetch(JSON_URL, { cache: 'no-store' });
-  if(!res.ok) throw new Error('HTTP '+res.status);
-  const data = await res.json();
-  let questions = Array.isArray(data) ? data : (data.questions || []);
-  if(!Array.isArray(questions) || questions.length===0) throw new Error('Aucune question trouvée');
-  return { meta: data.metadata || {}, questions };
 }
 
 // ========= Picking =========
@@ -173,7 +221,6 @@ function submit(){
     else { bad++; points -= 0.5; }
   });
   const total = STATE.picked.length;
-  const pct = Math.max(0, Math.min(100, Math.round((points/total)*100)));
   const pass = (points/total) >= STATE.passThreshold;
 
   $('#res-score').textContent = points.toFixed(2);
@@ -193,7 +240,7 @@ function renderReview(){
   STATE.picked.forEach((q,i)=>{
     const it = el('div', {class:'rev-item'});
     it.append(el('div', {class:'q-num', html:`<strong>Q${i+1}.</strong> <span class="tag" style="background:#0f6; color:#053"> ${q.category || '—'} </span>`}));
-    it.append(el('div', {style:'margin:8px 0 10px; fontWeight:'}, q.question || '—'));
+    it.append(el('div', {style:'margin:8px 0 10px;'}, q.question || '—'));
 
     const wrap = el('div');
     (q.options||[]).forEach((t,k)=>{
@@ -201,7 +248,7 @@ function renderReview(){
       if(k === q.correctAnswer) cls.push('correct');
       if(STATE.answers[i] === k) cls.push('user');
       if(STATE.answers[i] === k && k !== q.correctAnswer) cls.push('incorrect');
-      const line = el('div', {class:cls.join(' ')});
+      const line = el('div', {class:cls.join(' ')'});
       line.innerHTML = `<i class="fa-regular fa-circle-check"></i> ${t}`;
       wrap.append(line);
     });
@@ -278,10 +325,10 @@ $('#btn-retry').addEventListener('click', async ()=>{
 async function tryInit(){
   show('loading');
   try{
-    const { meta, questions } = await loadQuestions();
-    STATE.meta = meta;
-    STATE.all = questions;
-    newSelection(meta);
+    const data = await loadQuestions();
+    STATE.meta = data.metadata || {};
+    STATE.all = data.questions || [];
+    newSelection(STATE.meta);
     show('welcome');
   }catch(err){
     console.error(err);
