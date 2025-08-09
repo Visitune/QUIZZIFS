@@ -1,0 +1,2906 @@
+{
+  "metadata": {
+    "title": "Questions IFS - Réglementations Européennes",
+    "description": "Quiz de 200 questions basé exclusivement sur la liste des réglementations européennes",
+    "version": "1.0",
+    "created_date": "2025-08-09T20:53:17.013771",
+    "total_questions": 200,
+    "source": "liste reglementation.pdf"
+  },
+  "categories": [
+    {
+      "id": "reglementations_generales",
+      "name": "Réglementations Générales Sécurité Alimentaire",
+      "description": "Questions sur les réglementations fondamentales de la sécurité alimentaire"
+    },
+    {
+      "id": "hygiene_securite",
+      "name": "Hygiène et Sécurité des Denrées",
+      "description": "Questions sur l'hygiène des denrées alimentaires"
+    },
+    {
+      "id": "controles_officiels",
+      "name": "Contrôles Officiels",
+      "description": "Questions sur les contrôles officiels des denrées alimentaires"
+    },
+    {
+      "id": "microbiologie",
+      "name": "Critères Microbiologiques",
+      "description": "Questions sur les critères microbiologiques"
+    },
+    {
+      "id": "materiaux_contact",
+      "name": "Matériaux au Contact des Denrées",
+      "description": "Questions sur les matériaux et objets au contact des denrées alimentaires"
+    },
+    {
+      "id": "contaminants_residus",
+      "name": "Contaminants et Résidus",
+      "description": "Questions sur les contaminants et résidus dans les denrées alimentaires"
+    },
+    {
+      "id": "additifs_enzymes",
+      "name": "Additifs, Enzymes et Arômes",
+      "description": "Questions sur les additifs alimentaires, enzymes et arômes"
+    },
+    {
+      "id": "etiquetage_nutrition",
+      "name": "Étiquetage et Nutrition",
+      "description": "Questions sur l'étiquetage et l'information des consommateurs"
+    },
+    {
+      "id": "produits_specifiques",
+      "name": "Produits Spécifiques",
+      "description": "Questions sur les produits biologiques, OGM et nouveaux aliments"
+    },
+    {
+      "id": "traçabilite",
+      "name": "Traçabilité et Identification",
+      "description": "Questions sur la traçabilité et l'identification des produits"
+    }
+  ],
+  "questions": [
+    {
+      "id": "reg_001",
+      "category": "reglementations_generales",
+      "question": "Quel règlement établit les principes généraux et prescriptions générales de la législation alimentaire européenne ?",
+      "options": [
+        "Règlement (CE) no 178/2002",
+        "Règlement (CE) no 852/2004",
+        "Règlement (UE) no 1169/2011",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 178/2002 établit les principes généraux et prescriptions générales de la législation alimentaire, instituant l'Autorité européenne de sécurité des aliments.",
+      "regulation_ref": "Regulation (EC) No 178/2002"
+    },
+    {
+      "id": "reg_002",
+      "category": "reglementations_generales",
+      "question": "Quelle est la date d'entrée en vigueur du Règlement (CE) no 178/2002 selon la version consolidée ?",
+      "options": [
+        "01/07/2022",
+        "28/01/2002",
+        "15/02/2023",
+        "01/01/2023"
+      ],
+      "correct_answer": 0,
+      "explanation": "La version consolidée du Règlement (CE) no 178/2002 est en vigueur depuis le 01/07/2022.",
+      "regulation_ref": "Regulation (EC) No 178/2002"
+    },
+    {
+      "id": "reg_003",
+      "category": "reglementations_generales",
+      "question": "Quelle institution européenne est instituée par le Règlement (CE) no 178/2002 ?",
+      "options": [
+        "Autorité européenne de sécurité des aliments (EFSA)",
+        "Office européen des brevets",
+        "Agence européenne des médicaments",
+        "Cour de justice de l'Union européenne"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 178/2002 institue l'Autorité européenne de sécurité des aliments (EFSA).",
+      "regulation_ref": "Regulation (EC) No 178/2002"
+    },
+    {
+      "id": "hyg_001",
+      "category": "hygiene_securite",
+      "question": "Quel règlement traite spécifiquement de l'hygiène des denrées alimentaires ?",
+      "options": [
+        "Règlement (CE) no 852/2004",
+        "Règlement (CE) no 853/2004",
+        "Règlement (CE) no 854/2004",
+        "Règlement (UE) no 625/2017"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 852/2004 traite spécifiquement de l'hygiène des denrées alimentaires.",
+      "regulation_ref": "Regulation (EC) No 852/2004"
+    },
+    {
+      "id": "hyg_002",
+      "category": "hygiene_securite",
+      "question": "Quel règlement fixe des règles spécifiques d'hygiène pour les denrées alimentaires d'origine animale ?",
+      "options": [
+        "Règlement (CE) no 853/2004",
+        "Règlement (CE) no 852/2004",
+        "Règlement (CE) no 2074/2005",
+        "Règlement (UE) no 931/2011"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 853/2004 fixe des règles spécifiques d'hygiène applicables aux denrées alimentaires d'origine animale.",
+      "regulation_ref": "Regulation (EC) No 853/2004"
+    },
+    {
+      "id": "ctrl_001",
+      "category": "controles_officiels",
+      "question": "Quel règlement concerne les contrôles officiels et autres activités officielles dans le secteur alimentaire ?",
+      "options": [
+        "Règlement (UE) 2017/625",
+        "Règlement (CE) no 882/2004",
+        "Règlement (CE) no 854/2004",
+        "Règlement (UE) no 2019/624"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (UE) 2017/625 concerne les contrôles officiels et les autres activités officielles servant à assurer le respect de la législation alimentaire.",
+      "regulation_ref": "Regulation (EU) No 625/2017"
+    },
+    {
+      "id": "micro_001",
+      "category": "microbiologie",
+      "question": "Quel règlement établit les critères microbiologiques applicables aux denrées alimentaires ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1441/2007",
+        "Règlement (CE) no 2074/2005",
+        "Règlement (UE) no 2017/625"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 2073/2005 établit les critères microbiologiques applicables aux denrées alimentaires.",
+      "regulation_ref": "Regulation (EC) No 2073/2005"
+    },
+    {
+      "id": "fcm_001",
+      "category": "materiaux_contact",
+      "question": "Quel règlement concerne les matériaux et objets destinés à entrer en contact avec des denrées alimentaires ?",
+      "options": [
+        "Règlement (CE) no 1935/2004",
+        "Règlement (UE) no 10/2011",
+        "Règlement (CE) no 450/2009",
+        "Règlement (CE) no 2023/2006"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 1935/2004 concerne les matériaux et objets destinés à entrer en contact avec des denrées alimentaires.",
+      "regulation_ref": "Regulation (EC) No 1935/2004"
+    },
+    {
+      "id": "cont_001",
+      "category": "contaminants_residus",
+      "question": "Quel règlement établit des mesures d'atténuation pour la réduction de l'acrylamide dans les denrées alimentaires ?",
+      "options": [
+        "Règlement (UE) 2017/2158",
+        "Règlement (CE) no 315/93",
+        "Règlement (CE) no 396/2005",
+        "Règlement (UE) 2023/915"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (UE) 2017/2158 établit des mesures d'atténuation et des teneurs de référence pour la réduction de la présence d'acrylamide.",
+      "regulation_ref": "Regulation (EU) No 2017/2158"
+    },
+    {
+      "id": "add_001",
+      "category": "additifs_enzymes",
+      "question": "Quel règlement traite des additifs alimentaires ?",
+      "options": [
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 1332/2008",
+        "Règlement (CE) no 1334/2008",
+        "Règlement (CE) no 1925/2006"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 1333/2008 traite spécifiquement des additifs alimentaires.",
+      "regulation_ref": "Regulation (EC) No 1333/2008"
+    },
+    {
+      "id": "label_001",
+      "category": "etiquetage_nutrition",
+      "question": "Quel règlement concerne l'information des consommateurs sur les denrées alimentaires ?",
+      "options": [
+        "Règlement (UE) no 1169/2011",
+        "Règlement (CE) no 1924/2006",
+        "Règlement (UE) no 432/2012",
+        "Directive 2002/46/EC"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (UE) no 1169/2011 concerne l'information des consommateurs sur les denrées alimentaires.",
+      "regulation_ref": "Regulation (EU) No 1169/2011"
+    },
+    {
+      "id": "spec_001",
+      "category": "produits_specifiques",
+      "question": "Quel règlement traite de la production biologique et de l'étiquetage des produits biologiques ?",
+      "options": [
+        "Règlement (UE) 2018/848",
+        "Règlement (CE) no 834/2007",
+        "Règlement (CE) no 889/2008",
+        "Règlement (UE) no 1151/2012"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (UE) 2018/848 traite de la production biologique et de l'étiquetage des produits biologiques.",
+      "regulation_ref": "Regulation (EU) No 848/2018"
+    },
+    {
+      "id": "trace_001",
+      "category": "traçabilite",
+      "question": "Quel règlement établit un système d'identification et d'enregistrement des bovins ?",
+      "options": [
+        "Règlement (CE) no 1760/2000",
+        "Règlement (UE) no 931/2011",
+        "Règlement (UE) no 208/2013",
+        "Règlement (CE) no 589/2008"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le Règlement (CE) no 1760/2000 établit un système d'identification et d'enregistrement des bovins.",
+      "regulation_ref": "Regulation (EC) No 1760/2000"
+    },
+    {
+      "id": "regl_011",
+      "category": "reglementations_generales",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 178/2002 ?",
+      "options": [
+        "28 janvier 2002",
+        "Règlement (CE) no 999/2001",
+        "Directive 2001/18/EC",
+        "Règlement (UE) no 2015/2283"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : 28 janvier 2002",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "regl_012",
+      "category": "reglementations_generales",
+      "question": "Quel article du Règlement 178/2002 définit les principes généraux de la législation alimentaire ?",
+      "options": [
+        "Directive 2001/18/EC",
+        "Article 5",
+        "Règlement (CE) no 999/2001",
+        "Règlement (UE) no 2015/2283"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Article 5",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "regl_013",
+      "category": "reglementations_generales",
+      "question": "Quel est l'objectif principal du Règlement (CE) no 178/2002 ?",
+      "options": [
+        "Règlement (UE) no 2015/2283",
+        "Directive 2001/18/EC",
+        "Règlement (CE) no 999/2001",
+        "Assurer un niveau élevé de protection de la santé publique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Assurer un niveau élevé de protection de la santé publique",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "regl_014",
+      "category": "reglementations_generales",
+      "question": "Quelle procédure est prévue par le Règlement 178/2002 pour les situations d'urgence ?",
+      "options": [
+        "Règlement (CE) no 999/2001",
+        "Procédure de suspension rapide",
+        "Directive 2001/18/EC",
+        "Règlement (UE) no 2015/2283"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Procédure de suspension rapide",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "regl_015",
+      "category": "reglementations_generales",
+      "question": "Quel est le rôle de l'EFSA selon le Règlement 178/2002 ?",
+      "options": [
+        "Directive 2001/18/EC",
+        "Règlement (CE) no 999/2001",
+        "Fournir des avis scientifiques indépendants",
+        "Règlement (UE) no 2015/2283"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Fournir des avis scientifiques indépendants",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_016",
+      "category": "hygiene_securite",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 852/2004 ?",
+      "options": [
+        "Règlement (UE) no 2015/2283",
+        "Directive 2002/46/EC",
+        "29 avril 2004",
+        "Règlement (CE) no 999/2001"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : 29 avril 2004",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_017",
+      "category": "hygiene_securite",
+      "question": "Quelles sont les principales exigences du Règlement 852/2004 ?",
+      "options": [
+        "Systèmes HACCP et bonnes pratiques d'hygiène",
+        "Règlement (UE) no 2015/2283",
+        "Directive 2002/46/EC",
+        "Règlement (CE) no 999/2001"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Systèmes HACCP et bonnes pratiques d'hygiène",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_018",
+      "category": "hygiene_securite",
+      "question": "Quel est le champ d'application du Règlement 853/2004 ?",
+      "options": [
+        "Règlement (UE) no 2015/2283",
+        "Denrées alimentaires d'origine animale",
+        "Directive 2002/46/EC",
+        "Règlement (CE) no 999/2001"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Denrées alimentaires d'origine animale",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_019",
+      "category": "hygiene_securite",
+      "question": "Quelles sont les annexes du Règlement 853/2004 ?",
+      "options": [
+        "Règlement (UE) no 2015/2283",
+        "Directive 2002/46/EC",
+        "Annexes I à IV",
+        "Règlement (CE) no 999/2001"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Annexes I à IV",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_020",
+      "category": "hygiene_securite",
+      "question": "Quel est le rôle des guides de bonnes pratiques d'hygiène ?",
+      "options": [
+        "Règlement (CE) no 999/2001",
+        "Règlement (UE) no 2015/2283",
+        "Aider à la mise en conformité",
+        "Directive 2002/46/EC"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Aider à la mise en conformité",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_021",
+      "category": "controles_officiels",
+      "question": "Quelle est la date d'adoption du Règlement (UE) 2017/625 ?",
+      "options": [
+        "Directive 96/22/EC",
+        "15 mars 2017",
+        "Règlement (CE) no 882/2004",
+        "Règlement (CE) no 2074/2005"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : 15 mars 2017",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_022",
+      "category": "controles_officiels",
+      "question": "Quels sont les domaines couverts par le Règlement 2017/625 ?",
+      "options": [
+        "Règlement (CE) no 882/2004",
+        "Alimentaire, aliments pour animaux, santé animale, bien-être animal",
+        "Règlement (CE) no 2074/2005",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Alimentaire, aliments pour animaux, santé animale, bien-être animal",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_023",
+      "category": "controles_officiels",
+      "question": "Quelle est la fréquence des contrôles officiels selon le risque ?",
+      "options": [
+        "Règlement (CE) no 2074/2005",
+        "Basée sur l'analyse des risques",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 882/2004"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Basée sur l'analyse des risques",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_024",
+      "category": "controles_officiels",
+      "question": "Quels sont les pouvoirs des autorités de contrôle ?",
+      "options": [
+        "Accès aux locaux, prélèvements, sanctions",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 2074/2005",
+        "Règlement (CE) no 882/2004"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Accès aux locaux, prélèvements, sanctions",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_025",
+      "category": "controles_officiels",
+      "question": "Qu'est-ce qu'un plan de contrôle officiel ?",
+      "options": [
+        "Règlement (CE) no 2074/2005",
+        "Directive 96/22/EC",
+        "Document définissant la fréquence et le type de contrôles",
+        "Règlement (CE) no 882/2004"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Document définissant la fréquence et le type de contrôles",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_026",
+      "category": "microbiologie",
+      "question": "Quels sont les critères microbiologiques selon le Règlement 2073/2005 ?",
+      "options": [
+        "Règlement (CE) no 882/2004",
+        "Règlement (CE) no 2074/2005",
+        "Directive 2002/46/EC",
+        "Critères de sécurité et critères de qualité"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Critères de sécurité et critères de qualité",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_027",
+      "category": "microbiologie",
+      "question": "Quelles sont les méthodes d'analyse requises ?",
+      "options": [
+        "Méthodes validées et normalisées",
+        "Règlement (CE) no 2074/2005",
+        "Règlement (CE) no 882/2004",
+        "Directive 2002/46/EC"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Méthodes validées et normalisées",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_028",
+      "category": "microbiologie",
+      "question": "Qu'est-ce qu'un plan d'échantillonnage ?",
+      "options": [
+        "Règlement (CE) no 882/2004",
+        "Règlement (CE) no 2074/2005",
+        "Méthode pour prélever des échantillons représentatifs",
+        "Directive 2002/46/EC"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Méthode pour prélever des échantillons représentatifs",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_029",
+      "category": "microbiologie",
+      "question": "Quels sont les microorganismes cibles ?",
+      "options": [
+        "Règlement (CE) no 882/2004",
+        "Règlement (CE) no 2074/2005",
+        "Directive 2002/46/EC",
+        "Salmonella, Listeria, E. coli, etc."
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Salmonella, Listeria, E. coli, etc.",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_030",
+      "category": "microbiologie",
+      "question": "Quelles sont les limites pour Salmonella dans la viande ?",
+      "options": [
+        "Absence dans 25g",
+        "Règlement (CE) no 882/2004",
+        "Directive 2002/46/EC",
+        "Règlement (CE) no 2074/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Absence dans 25g",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_031",
+      "category": "materiaux_contact",
+      "question": "Quel est le principe général des matériaux au contact des denrées ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Inertie chimique",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Inertie chimique",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_032",
+      "category": "materiaux_contact",
+      "question": "Qu'est-ce que la migration spécifique ?",
+      "options": [
+        "Quantité maximale d'une substance migrant dans les denrées",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Quantité maximale d'une substance migrant dans les denrées",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_033",
+      "category": "materiaux_contact",
+      "question": "Quels sont les tests de migration requis ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Tests avec simulateurs alimentaires",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Tests avec simulateurs alimentaires",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_034",
+      "category": "materiaux_contact",
+      "question": "Qu'est-ce qu'un EFSA ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Directive 96/22/EC",
+        "European Food Safety Authority"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : European Food Safety Authority",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_035",
+      "category": "materiaux_contact",
+      "question": "Quelle est la procédure d'autorisation des substances ?",
+      "options": [
+        "Évaluation EFSA + autorisation Commission",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Évaluation EFSA + autorisation Commission",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_036",
+      "category": "contaminants_residus",
+      "question": "Qu'est-ce qu'un contaminant selon la législation européenne ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Substance indésirable présente dans les denrées",
+        "Règlement (CE) no 1333/2008",
+        "Directive 2002/46/EC"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Substance indésirable présente dans les denrées",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_037",
+      "category": "contaminants_residus",
+      "question": "Quelles sont les teneurs maximales pour l'acrylamide ?",
+      "options": [
+        "Varient selon les catégories de produits",
+        "Règlement (CE) no 1333/2008",
+        "Directive 2002/46/EC",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Varient selon les catégories de produits",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_038",
+      "category": "contaminants_residus",
+      "question": "Qu'est-ce que le principe ALARA ?",
+      "options": [
+        "Directive 2002/46/EC",
+        "As Low As Reasonably Achievable",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : As Low As Reasonably Achievable",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_039",
+      "category": "contaminants_residus",
+      "question": "Quels sont les contaminants prioritaires ?",
+      "options": [
+        "Mycotoxines, métaux lourds, dioxines",
+        "Directive 2002/46/EC",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Mycotoxines, métaux lourds, dioxines",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_040",
+      "category": "contaminants_residus",
+      "question": "Quelle est la fréquence des contrôles ?",
+      "options": [
+        "Directive 2002/46/EC",
+        "Basée sur le risque et l'historique",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Basée sur le risque et l'historique",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_041",
+      "category": "additifs_enzymes",
+      "question": "Qu'est-ce qu'un additif alimentaire ?",
+      "options": [
+        "Substance ajoutée intentionnellement aux denrées",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 2073/2005",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Substance ajoutée intentionnellement aux denrées",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_042",
+      "category": "additifs_enzymes",
+      "question": "Qu'est-ce que la liste positive ?",
+      "options": [
+        "Liste des additifs autorisés",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Liste des additifs autorisés",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_043",
+      "category": "additifs_enzymes",
+      "question": "Quelles sont les conditions d'utilisation ?",
+      "options": [
+        "Limites maximales et restrictions d'usage",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 2073/2005",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Limites maximales et restrictions d'usage",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_044",
+      "category": "additifs_enzymes",
+      "question": "Qu'est-ce qu'une enzyme alimentaire ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Préparation enzymatique utilisée dans les denrées",
+        "Règlement (CE) no 1935/2004",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Préparation enzymatique utilisée dans les denrées",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_045",
+      "category": "additifs_enzymes",
+      "question": "Quelle est la procédure d'autorisation ?",
+      "options": [
+        "Évaluation EFSA + autorisation Commission",
+        "Règlement (CE) no 2073/2005",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 1935/2004"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Évaluation EFSA + autorisation Commission",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_046",
+      "category": "etiquetage_nutrition",
+      "question": "Quelles sont les informations obligatoires sur l'étiquette ?",
+      "options": [
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005",
+        "Directive 96/22/EC",
+        "Nom, liste ingrédients, quantité, DLC, etc."
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Nom, liste ingrédients, quantité, DLC, etc.",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_047",
+      "category": "etiquetage_nutrition",
+      "question": "Qu'est-ce que l'allergène majeur ?",
+      "options": [
+        "Directive 96/22/EC",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Substance provoquant des réactions allergiques"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Substance provoquant des réactions allergiques",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_048",
+      "category": "etiquetage_nutrition",
+      "question": "Quelle est la taille minimale des caractères ?",
+      "options": [
+        "Directive 96/22/EC",
+        "Règlement (CE) no 2073/2005",
+        "1,2 mm pour les informations obligatoires",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : 1,2 mm pour les informations obligatoires",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_049",
+      "category": "etiquetage_nutrition",
+      "question": "Qu'est-ce qu'une allégation nutritionnelle ?",
+      "options": [
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005",
+        "Déclaration sur les propriétés nutritionnelles",
+        "Directive 96/22/EC"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Déclaration sur les propriétés nutritionnelles",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_050",
+      "category": "etiquetage_nutrition",
+      "question": "Qu'est-ce qu'une allégation de santé ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Déclaration sur les effets bénéfiques pour la santé",
+        "Directive 96/22/EC",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Déclaration sur les effets bénéfiques pour la santé",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_051",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce que la production biologique ?",
+      "options": [
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005",
+        "Méthode de production respectant l'environnement"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Méthode de production respectant l'environnement",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_052",
+      "category": "produits_specifiques",
+      "question": "Quelles sont les exigences pour les OGM ?",
+      "options": [
+        "Étiquetage et traçabilité obligatoires",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Étiquetage et traçabilité obligatoires",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_053",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un nouvel aliment ?",
+      "options": [
+        "Règlement (CE) no 1935/2004",
+        "Aliment non consommé de manière significative avant 1997",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Aliment non consommé de manière significative avant 1997",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_054",
+      "category": "produits_specifiques",
+      "question": "Quelle est la procédure d'autorisation des nouveaux aliments ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 1333/2008",
+        "Notification ou autorisation selon le cas"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Notification ou autorisation selon le cas",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_055",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un complément alimentaire ?",
+      "options": [
+        "Produit concentré de nutriments ou substances",
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 1935/2004"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse correcte : Produit concentré de nutriments ou substances",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "traç_056",
+      "category": "traçabilite",
+      "question": "Qu'est-ce que la traçabilité alimentaire ?",
+      "options": [
+        "Règlement (CE) no 1935/2004",
+        "Capacité de retracer l'historique d'un produit",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Capacité de retracer l'historique d'un produit",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "traç_057",
+      "category": "traçabilite",
+      "question": "Quelles sont les informations de traçabilité requises ?",
+      "options": [
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005",
+        "Fournisseurs, clients, nature des produits",
+        "Règlement (CE) no 1935/2004"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Fournisseurs, clients, nature des produits",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "traç_058",
+      "category": "traçabilite",
+      "question": "Quelle est la durée de conservation des documents ?",
+      "options": [
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 1935/2004",
+        "Règlement (CE) no 2073/2005",
+        "Selon la durée de vie du produit"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse correcte : Selon la durée de vie du produit",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "traç_059",
+      "category": "traçabilite",
+      "question": "Qu'est-ce que le système d'identification des bovins ?",
+      "options": [
+        "Règlement (CE) no 1935/2004",
+        "Double identification avec passeport",
+        "Règlement (CE) no 1333/2008",
+        "Règlement (CE) no 2073/2005"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse correcte : Double identification avec passeport",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "traç_060",
+      "category": "traçabilite",
+      "question": "Quelles sont les exigences pour les œufs ?",
+      "options": [
+        "Règlement (CE) no 2073/2005",
+        "Règlement (CE) no 1935/2004",
+        "Codification et traçabilité par lot",
+        "Règlement (CE) no 1333/2008"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse correcte : Codification et traçabilité par lot",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_061",
+      "category": "materiaux_contact",
+      "question": "Quel est le numéro du règlement sur les matériaux plastiques au contact des denrées ?",
+      "options": [
+        "10/2011",
+        "852/2004",
+        "2074/2005",
+        "178/2002"
+      ],
+      "correct_answer": 0,
+      "explanation": "Le numéro correct est : 10/2011",
+      "regulation_ref": "Regulation 10/2011"
+    },
+    {
+      "id": "micr_062",
+      "category": "microbiologie",
+      "question": "Quel est le numéro du règlement sur les critères microbiologiques ?",
+      "options": [
+        "178/2002",
+        "852/2004",
+        "2073/2005",
+        "2074/2005"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 2073/2005",
+      "regulation_ref": "Regulation 2073/2005"
+    },
+    {
+      "id": "addi_063",
+      "category": "additifs_enzymes",
+      "question": "Quel est le numéro du règlement sur les additifs alimentaires ?",
+      "options": [
+        "2074/2005",
+        "178/2002",
+        "1333/2008",
+        "852/2004"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 1333/2008",
+      "regulation_ref": "Regulation 1333/2008"
+    },
+    {
+      "id": "etiq_064",
+      "category": "etiquetage_nutrition",
+      "question": "Quel est le numéro du règlement sur l'étiquetage des denrées alimentaires ?",
+      "options": [
+        "852/2004",
+        "2074/2005",
+        "1169/2011",
+        "178/2002"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 1169/2011",
+      "regulation_ref": "Regulation 1169/2011"
+    },
+    {
+      "id": "cont_065",
+      "category": "contaminants_residus",
+      "question": "Quel est le numéro du règlement sur les contaminants dans les denrées alimentaires ?",
+      "options": [
+        "178/2002",
+        "2074/2005",
+        "2023/915",
+        "852/2004"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 2023/915",
+      "regulation_ref": "Regulation 2023/915"
+    },
+    {
+      "id": "cont_066",
+      "category": "controles_officiels",
+      "question": "Quel est le numéro du règlement sur les contrôles officiels ?",
+      "options": [
+        "852/2004",
+        "2074/2005",
+        "178/2002",
+        "2017/625"
+      ],
+      "correct_answer": 3,
+      "explanation": "Le numéro correct est : 2017/625",
+      "regulation_ref": "Regulation 2017/625"
+    },
+    {
+      "id": "hygi_067",
+      "category": "hygiene_securite",
+      "question": "Quel est le numéro du règlement sur les denrées alimentaires d'origine animale ?",
+      "options": [
+        "178/2002",
+        "852/2004",
+        "853/2004",
+        "2074/2005"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 853/2004",
+      "regulation_ref": "Regulation 853/2004"
+    },
+    {
+      "id": "prod_068",
+      "category": "produits_specifiques",
+      "question": "Quel est le numéro du règlement sur la production biologique ?",
+      "options": [
+        "852/2004",
+        "178/2002",
+        "2018/848",
+        "2074/2005"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 2018/848",
+      "regulation_ref": "Regulation 2018/848"
+    },
+    {
+      "id": "mate_069",
+      "category": "materiaux_contact",
+      "question": "Quel est le numéro du règlement sur les matériaux au contact des denrées ?",
+      "options": [
+        "2074/2005",
+        "852/2004",
+        "178/2002",
+        "1935/2004"
+      ],
+      "correct_answer": 3,
+      "explanation": "Le numéro correct est : 1935/2004",
+      "regulation_ref": "Regulation 1935/2004"
+    },
+    {
+      "id": "traç_070",
+      "category": "traçabilite",
+      "question": "Quel est le numéro du règlement sur la traçabilité des denrées alimentaires d'origine animale ?",
+      "options": [
+        "852/2004",
+        "178/2002",
+        "931/2011",
+        "2074/2005"
+      ],
+      "correct_answer": 2,
+      "explanation": "Le numéro correct est : 931/2011",
+      "regulation_ref": "Regulation 931/2011"
+    },
+    {
+      "id": "regl_071",
+      "category": "reglementations_generales",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 178/2002 ?",
+      "options": [
+        "28 janvier 2002",
+        "31 décembre 2002",
+        "1 janvier 2002",
+        "1 juillet 2002"
+      ],
+      "correct_answer": 0,
+      "explanation": "La date d'adoption est : 28 janvier 2002",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_072",
+      "category": "hygiene_securite",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 852/2004 ?",
+      "options": [
+        "1 janvier 2002",
+        "1 juillet 2002",
+        "29 avril 2004",
+        "31 décembre 2002"
+      ],
+      "correct_answer": 2,
+      "explanation": "La date d'adoption est : 29 avril 2004",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "hygi_073",
+      "category": "hygiene_securite",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 853/2004 ?",
+      "options": [
+        "31 décembre 2002",
+        "1 janvier 2002",
+        "29 avril 2004",
+        "1 juillet 2002"
+      ],
+      "correct_answer": 2,
+      "explanation": "La date d'adoption est : 29 avril 2004",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_074",
+      "category": "controles_officiels",
+      "question": "Quelle est la date d'adoption du Règlement (UE) 2017/625 ?",
+      "options": [
+        "31 décembre 2002",
+        "1 juillet 2002",
+        "15 mars 2017",
+        "1 janvier 2002"
+      ],
+      "correct_answer": 2,
+      "explanation": "La date d'adoption est : 15 mars 2017",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "micr_075",
+      "category": "microbiologie",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 2073/2005 ?",
+      "options": [
+        "15 novembre 2005",
+        "1 janvier 2002",
+        "1 juillet 2002",
+        "31 décembre 2002"
+      ],
+      "correct_answer": 0,
+      "explanation": "La date d'adoption est : 15 novembre 2005",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "mate_076",
+      "category": "materiaux_contact",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 1935/2004 ?",
+      "options": [
+        "27 octobre 2004",
+        "1 janvier 2002",
+        "31 décembre 2002",
+        "1 juillet 2002"
+      ],
+      "correct_answer": 0,
+      "explanation": "La date d'adoption est : 27 octobre 2004",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "cont_077",
+      "category": "contaminants_residus",
+      "question": "Quelle est la date d'adoption du Règlement (UE) 2017/2158 ?",
+      "options": [
+        "31 décembre 2002",
+        "20 novembre 2017",
+        "1 juillet 2002",
+        "1 janvier 2002"
+      ],
+      "correct_answer": 1,
+      "explanation": "La date d'adoption est : 20 novembre 2017",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "addi_078",
+      "category": "additifs_enzymes",
+      "question": "Quelle est la date d'adoption du Règlement (CE) no 1333/2008 ?",
+      "options": [
+        "1 juillet 2002",
+        "16 décembre 2008",
+        "1 janvier 2002",
+        "31 décembre 2002"
+      ],
+      "correct_answer": 1,
+      "explanation": "La date d'adoption est : 16 décembre 2008",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "etiq_079",
+      "category": "etiquetage_nutrition",
+      "question": "Quelle est la date d'adoption du Règlement (UE) no 1169/2011 ?",
+      "options": [
+        "1 janvier 2002",
+        "25 octobre 2011",
+        "1 juillet 2002",
+        "31 décembre 2002"
+      ],
+      "correct_answer": 1,
+      "explanation": "La date d'adoption est : 25 octobre 2011",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "prod_080",
+      "category": "produits_specifiques",
+      "question": "Quelle est la date d'adoption du Règlement (UE) 2018/848 ?",
+      "options": [
+        "31 décembre 2002",
+        "1 juillet 2002",
+        "1 janvier 2002",
+        "30 mai 2018"
+      ],
+      "correct_answer": 3,
+      "explanation": "La date d'adoption est : 30 mai 2018",
+      "regulation_ref": "Basé sur la liste des réglementations européennes"
+    },
+    {
+      "id": "regl_081",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Les règlements de l'Union européenne",
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_082",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Texte juridique directement applicable dans tous les États membres",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_083",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_084",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Les États membres et la Commission européenne",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_085",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Règlement national",
+        "Mesures provisoires en cas de risque potentiel",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_086",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale",
+        "Évaluation scientifique des dangers potentiels"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_087",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_088",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Échange d'informations avec les parties prenantes",
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_089",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Directive nationale",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_090",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Produit conforme aux règles de production biologique",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_091",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Les règlements de l'Union européenne"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_092",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Texte juridique directement applicable dans tous les États membres",
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_093",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_094",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Directive nationale",
+        "Les États membres et la Commission européenne",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_095",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Mesures provisoires en cas de risque potentiel",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_096",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Évaluation scientifique des dangers potentiels",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_097",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Processus de décision sur les mesures à prendre",
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_098",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Échange d'informations avec les parties prenantes",
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_099",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Directive nationale",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_100",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Règlement national",
+        "Produit conforme aux règles de production biologique",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_101",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Directive nationale",
+        "Les règlements de l'Union européenne",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_102",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_103",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_104",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Les États membres et la Commission européenne",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_105",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Mesures provisoires en cas de risque potentiel"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_106",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Évaluation scientifique des dangers potentiels",
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_107",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_108",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Échange d'informations avec les parties prenantes",
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_109",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_110",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national",
+        "Produit conforme aux règles de production biologique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_111",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Les règlements de l'Union européenne",
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_112",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Loi nationale",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_113",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_114",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Les États membres et la Commission européenne",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_115",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Loi nationale",
+        "Mesures provisoires en cas de risque potentiel",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_116",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Évaluation scientifique des dangers potentiels",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_117",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Processus de décision sur les mesures à prendre",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_118",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale",
+        "Échange d'informations avec les parties prenantes"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_119",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_120",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Produit conforme aux règles de production biologique",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_121",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Les règlements de l'Union européenne"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_122",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_123",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_124",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale",
+        "Les États membres et la Commission européenne"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_125",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Mesures provisoires en cas de risque potentiel",
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_126",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Évaluation scientifique des dangers potentiels",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_127",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_128",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Loi nationale",
+        "Échange d'informations avec les parties prenantes",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_129",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_130",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale",
+        "Produit conforme aux règles de production biologique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_131",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Les règlements de l'Union européenne",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_132",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_133",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_134",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Directive nationale",
+        "Les États membres et la Commission européenne",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_135",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national",
+        "Mesures provisoires en cas de risque potentiel"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_136",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Évaluation scientifique des dangers potentiels",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_137",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_138",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Échange d'informations avec les parties prenantes",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_139",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_140",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Produit conforme aux règles de production biologique",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_141",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Règlement national",
+        "Les règlements de l'Union européenne",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_142",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_143",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_144",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Règlement national",
+        "Les États membres et la Commission européenne",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_145",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Mesures provisoires en cas de risque potentiel",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_146",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale",
+        "Évaluation scientifique des dangers potentiels"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_147",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Processus de décision sur les mesures à prendre",
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_148",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale",
+        "Échange d'informations avec les parties prenantes"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_149",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_150",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Produit conforme aux règles de production biologique",
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_151",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Les règlements de l'Union européenne"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_152",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Texte juridique directement applicable dans tous les États membres",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_153",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_154",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Les États membres et la Commission européenne",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_155",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Loi nationale",
+        "Règlement national",
+        "Mesures provisoires en cas de risque potentiel",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_156",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Évaluation scientifique des dangers potentiels",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_157",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Processus de décision sur les mesures à prendre"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_158",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Loi nationale",
+        "Échange d'informations avec les parties prenantes",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_159",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_160",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Produit conforme aux règles de production biologique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_161",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Les règlements de l'Union européenne",
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_162",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Loi nationale",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_163",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Directive nationale",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_164",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Les États membres et la Commission européenne",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_165",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Directive nationale",
+        "Mesures provisoires en cas de risque potentiel",
+        "Loi nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_166",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Évaluation scientifique des dangers potentiels",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_167",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_168",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale",
+        "Échange d'informations avec les parties prenantes"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_169",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Loi nationale",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_170",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Loi nationale",
+        "Produit conforme aux règles de production biologique",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_171",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Les règlements de l'Union européenne",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_172",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_173",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Le règlement est directement applicable, la directive doit être transposée"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_174",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Les États membres et la Commission européenne",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_175",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Mesures provisoires en cas de risque potentiel",
+        "Loi nationale",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_176",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Évaluation scientifique des dangers potentiels",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_177",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_178",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Échange d'informations avec les parties prenantes",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_179",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_180",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Produit conforme aux règles de production biologique",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_181",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Les règlements de l'Union européenne"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_182",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Loi nationale",
+        "Texte juridique directement applicable dans tous les États membres",
+        "Directive nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_183",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Le règlement est directement applicable, la directive doit être transposée"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_184",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Les États membres et la Commission européenne",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_185",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Mesures provisoires en cas de risque potentiel",
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_186",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Évaluation scientifique des dangers potentiels",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_187",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Loi nationale",
+        "Processus de décision sur les mesures à prendre",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_188",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Échange d'informations avec les parties prenantes"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_189",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Directive nationale",
+        "Règlement national",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_190",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Loi nationale",
+        "Produit conforme aux règles de production biologique",
+        "Règlement national",
+        "Directive nationale"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_191",
+      "category": "reglementations_generales",
+      "question": "Quelle est la principale source de législation alimentaire européenne ?",
+      "options": [
+        "Les règlements de l'Union européenne",
+        "Règlement national",
+        "Loi nationale",
+        "Directive nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Les règlements de l'Union européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_192",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'un règlement européen ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale",
+        "Texte juridique directement applicable dans tous les États membres"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Texte juridique directement applicable dans tous les États membres",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_193",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence entre un règlement et une directive ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Le règlement est directement applicable, la directive doit être transposée",
+        "Règlement national"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Le règlement est directement applicable, la directive doit être transposée",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_194",
+      "category": "reglementations_generales",
+      "question": "Qui est responsable de la sécurité alimentaire dans l'UE ?",
+      "options": [
+        "Loi nationale",
+        "Les États membres et la Commission européenne",
+        "Directive nationale",
+        "Règlement national"
+      ],
+      "correct_answer": 1,
+      "explanation": "Réponse : Les États membres et la Commission européenne",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_195",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que le principe de précaution ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Mesures provisoires en cas de risque potentiel",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Mesures provisoires en cas de risque potentiel",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_196",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une analyse de risque ?",
+      "options": [
+        "Directive nationale",
+        "Loi nationale",
+        "Règlement national",
+        "Évaluation scientifique des dangers potentiels"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Évaluation scientifique des dangers potentiels",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_197",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce qu'une gestion du risque ?",
+      "options": [
+        "Processus de décision sur les mesures à prendre",
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale"
+      ],
+      "correct_answer": 0,
+      "explanation": "Réponse : Processus de décision sur les mesures à prendre",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "regl_198",
+      "category": "reglementations_generales",
+      "question": "Qu'est-ce que la communication sur les risques ?",
+      "options": [
+        "Règlement national",
+        "Directive nationale",
+        "Loi nationale",
+        "Échange d'informations avec les parties prenantes"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Échange d'informations avec les parties prenantes",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_199",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit de la pêche ?",
+      "options": [
+        "Directive nationale",
+        "Règlement national",
+        "Produit issu de la pêche ou de l'aquaculture",
+        "Loi nationale"
+      ],
+      "correct_answer": 2,
+      "explanation": "Réponse : Produit issu de la pêche ou de l'aquaculture",
+      "regulation_ref": "Basé sur la législation européenne"
+    },
+    {
+      "id": "prod_200",
+      "category": "produits_specifiques",
+      "question": "Qu'est-ce qu'un produit biologique ?",
+      "options": [
+        "Loi nationale",
+        "Directive nationale",
+        "Règlement national",
+        "Produit conforme aux règles de production biologique"
+      ],
+      "correct_answer": 3,
+      "explanation": "Réponse : Produit conforme aux règles de production biologique",
+      "regulation_ref": "Basé sur la législation européenne"
+    }
+  ]
+}
