@@ -19,7 +19,10 @@ const screens = {
   review: $('#scr-review'),
 };
 function show(name){
-  Object.values(screens).forEach(sc=>{ sc.classList.remove('active'); sc.setAttribute('aria-hidden','true'); });
+  Object.values(screens).forEach(sc=>{
+    sc.classList.remove('active');
+    sc.setAttribute('aria-hidden','true');
+  });
   screens[name].classList.add('active');
   screens[name].setAttribute('aria-hidden','false');
 }
@@ -39,15 +42,18 @@ const STATE = {
 
 // ========= Config JSON =========
 const JSON_URL = "ifs-questions-full.json";
+// Si besoin de charger depuis GitHub brut :
 // const JSON_URL = "https://raw.githubusercontent.com/Visitune/QUIZZIFS/main/ifs-questions-full.json";
 
 // ========= Correctif “mojibake” (accents cassés) =========
 const AUTO_FIX_MOJIBAKE = true;
 function looksMojibake(s){
-  return /Ã.|Â.|â.|¤|Ô|Ð|Î|ø|å|é|�/.test(s);
+  // Détection grossière de séquences erronées UTF-8 -> ISO-8859-1
+  return /[\u00C2\u00C3\u00E2\uFFFD]/.test(s);
 }
-function fixStr(s){
-  try { return decodeURIComponent(escape(s)); } catch { return s; }
+function fixStr(str){
+  try { return decodeURIComponent(escape(str)); }
+  catch { return str; }
 }
 function deepFix(obj){
   if (obj == null) return obj;
@@ -64,7 +70,7 @@ function deepFix(obj){
 // ========= Data loading =========
 async function loadQuestions(){
   $('#load-error').style.display='none';
-  $('#load-msg').textContent = 'Récupération du fichier depuis le dépôt…';
+  $('#load-msg').textContent = 'Récupération du fichier…';
   const res = await fetch(JSON_URL, { cache: 'no-store' });
   if(!res.ok) throw new Error('HTTP '+res.status);
   let data = await res.json();
