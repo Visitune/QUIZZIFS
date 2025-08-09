@@ -2,30 +2,33 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; img-src 'self' data:;">
+  <meta http-equiv="Content-Security-Policy"
+        content="
+          default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+          script-src  'self';
+          connect-src 'self' https://raw.githubusercontent.com;
+          style-src   'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+          font-src    'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:;
+          img-src     'self' data:;
+        ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>IFS Certification Quiz — Préparation à l’examen</title>
+
+  <!-- Fonts & Icons -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- Favicon (data URL, pas de 404) -->
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%230066cc"/><text x="50%" y="54%" text-anchor="middle" font-family="Arial" font-size="34" fill="white">IFS</text></svg>'>
+
   <style>
-    /* ====== Design Système ====== */
     :root{
-      --ifs-primary:#0066cc;
-      --ifs-secondary:#00a3e0;
-      --ifs-accent:#ff6b35;
-      --ifs-success:#28a745;
-      --ifs-warning:#ffc107;
-      --ifs-danger:#dc3545;
-      --ifs-dark:#1a1a1a;
-      --ifs-gray-700:#495057;
-      --ifs-gray-500:#6c757d;
-      --ifs-gray-200:#e9ecef;
-      --ifs-light:#f8f9fa;
-      --ifs-white:#fff;
-      --radius-sm:.375rem;
-      --radius-md:.75rem;
-      --radius-lg:1.25rem;
+      --ifs-primary:#0066cc; --ifs-secondary:#00a3e0; --ifs-accent:#ff6b35;
+      --ifs-success:#28a745; --ifs-warning:#ffc107; --ifs-danger:#dc3545;
+      --ifs-dark:#1a1a1a; --ifs-gray-700:#495057; --ifs-gray-500:#6c757d;
+      --ifs-gray-200:#e9ecef; --ifs-light:#f8f9fa; --ifs-white:#fff;
+      --radius-sm:.375rem; --radius-md:.75rem; --radius-lg:1.25rem;
       --shadow-sm:0 1px 2px rgba(0,0,0,.08);
       --shadow-md:0 6px 18px rgba(0,0,0,.10);
       --shadow-lg:0 12px 30px rgba(0,0,0,.12);
@@ -33,74 +36,44 @@
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
-      margin:0;
-      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      color:var(--ifs-dark);
-      background:linear-gradient(135deg,#f6f8fc, #eef2f7);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
+      margin:0; font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--ifs-dark); background:linear-gradient(135deg,#f6f8fc, #eef2f7);
+      -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
     }
-    .container{
-      max-width:940px;
-      margin:0 auto;
-      padding:20px;
-      min-height:100%;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-    }
-    .screen{
-      display:none;
-      width:100%;
-      background:var(--ifs-white);
-      border-radius:var(--radius-lg);
-      box-shadow:var(--shadow-lg);
-      overflow:hidden;
-    }
+    .container{max-width:940px; margin:0 auto; padding:20px; min-height:100%;
+      display:flex; align-items:center; justify-content:center}
+
+    .screen{display:none; width:100%; background:var(--ifs-white); border-radius:var(--radius-lg);
+      box-shadow:var(--shadow-lg); overflow:hidden}
     .screen.active{display:block; animation:fadeIn .25s ease}
     @keyframes fadeIn{from{opacity:0; transform:translateY(12px)} to{opacity:1; transform:translateY(0)}}
 
-    /* Header / Welcome */
-    .hero{
-      padding:40px 28px;
-      background:linear-gradient(135deg,var(--ifs-primary),var(--ifs-secondary));
-      color:#fff;
-      text-align:center;
-    }
+    .hero{padding:40px 28px; background:linear-gradient(135deg,var(--ifs-primary),var(--ifs-secondary));
+      color:#fff; text-align:center}
     .hero h1{margin:0 0 6px; font-size:28px; font-weight:700}
     .hero p{margin:0; opacity:.9}
 
     .section{padding:24px 28px}
-    .card{
-      background:var(--ifs-light);
-      border:1px solid var(--ifs-gray-200);
-      border-radius:var(--radius-md);
-      padding:16px;
-      box-shadow:var(--shadow-sm);
-    }
+    .card{background:var(--ifs-light); border:1px solid var(--ifs-gray-200); border-radius:var(--radius-md);
+      padding:16px; box-shadow:var(--shadow-sm)}
     .row{display:grid; gap:12px}
     @media(min-width:720px){ .row.cols-2{grid-template-columns:1fr 1fr} }
 
-    .stat{display:flex; align-items:center; justify-content:space-between; padding:10px 12px; background:#fff; border-radius:10px; border:1px solid var(--ifs-gray-200)}
+    .stat{display:flex; align-items:center; justify-content:space-between; padding:10px 12px;
+      background:#fff; border-radius:10px; border:1px solid var(--ifs-gray-200)}
     .stat .k{color:var(--ifs-gray-700); font-weight:600}
     .stat .v{color:var(--ifs-primary); font-weight:700}
 
-    /* Buttons */
-    .btn{
-      appearance:none; border:0; border-radius:12px; padding:12px 18px;
-      font-weight:600; cursor:pointer; transition:.2s; display:inline-flex; align-items:center; gap:10px;
-    }
+    .btn{appearance:none; border:0; border-radius:12px; padding:12px 18px;
+      font-weight:600; cursor:pointer; transition:.2s; display:inline-flex; align-items:center; gap:10px}
     .btn:disabled{opacity:.6; cursor:not-allowed}
     .btn-primary{background:var(--ifs-primary); color:#fff}
     .btn-primary:hover{transform:translateY(-1px); box-shadow:var(--shadow-md)}
     .btn-light{background:#fff; border:1px solid var(--ifs-gray-200); color:var(--ifs-dark)}
     .btn-warning{background:var(--ifs-warning); color:#111}
 
-    /* Quiz */
-    .quiz-head{
-      display:flex; gap:18px; align-items:center; justify-content:space-between;
-      padding:18px 24px; border-bottom:1px solid var(--ifs-gray-200); background:var(--ifs-light)
-    }
+    .quiz-head{display:flex; gap:18px; align-items:center; justify-content:space-between;
+      padding:18px 24px; border-bottom:1px solid var(--ifs-gray-200); background:var(--ifs-light)}
     .progress{flex:1}
     .bar{height:8px; background:var(--ifs-gray-200); border-radius:999px; overflow:hidden}
     .bar > span{display:block; height:100%; width:0%; background:linear-gradient(90deg,var(--ifs-primary), var(--ifs-secondary)); transition:width .2s}
@@ -114,10 +87,8 @@
     .q-text{font-size:20px; line-height:1.5; margin:16px 0 20px}
 
     .options{display:grid; gap:12px}
-    .opt{
-      display:flex; gap:12px; align-items:flex-start; background:#fff; border:2px solid var(--ifs-gray-200);
-      border-radius:14px; padding:14px; cursor:pointer; transition:.15s;
-    }
+    .opt{display:flex; gap:12px; align-items:flex-start; background:#fff; border:2px solid var(--ifs-gray-200);
+      border-radius:14px; padding:14px; cursor:pointer; transition:.15s}
     .opt:hover{border-color:var(--ifs-primary); background:#f3f9ff}
     .opt.selected{border-color:var(--ifs-primary); background:#eef6ff}
     .opt.correct{border-color:var(--ifs-success); background:#f0fff4}
@@ -127,18 +98,13 @@
     .nav{margin-top:20px; display:flex; gap:10px; justify-content:space-between}
     .nav .group{display:flex; gap:10px}
 
-    /* Results */
-    .results-hero{
-      padding:36px 28px; text-align:center; color:#fff; background:linear-gradient(135deg,var(--ifs-success),#20c997)
-    }
+    .results-hero{padding:36px 28px; text-align:center; color:#fff; background:linear-gradient(135deg,var(--ifs-success),#20c997)}
     .results-hero h2{margin:0 0 6px}
     .score-wrap{padding:26px 28px}
-    .score{
-      width:160px; height:160px; margin:0 auto 12px; border-radius:50%;
+    .score{width:160px; height:160px; margin:0 auto 12px; border-radius:50%;
       color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center;
       background:linear-gradient(135deg,var(--ifs-primary),var(--ifs-secondary));
-      box-shadow:inset 0 0 0 10px rgba(255,255,255,.15);
-    }
+      box-shadow:inset 0 0 0 10px rgba(255,255,255,.15)}
     .score strong{font-size:34px}
     .score small{opacity:.9}
     .grid{display:grid; gap:12px}
@@ -153,19 +119,12 @@
     .rev-opt.incorrect{color:var(--ifs-danger)}
     .rev-opt.user{background:#eef6ff; padding:6px 8px; border-radius:8px}
 
-    /* Loading / Error */
     .load{padding:42px 28px; text-align:center}
     .spinner{width:42px; height:42px; border:4px solid #e5eef8; border-top-color:var(--ifs-primary); border-radius:50%; margin:0 auto 14px; animation:spin 1s linear infinite}
     @keyframes spin{to{transform:rotate(360deg)}}
-    .alert{
-      display:inline-flex; gap:10px; align-items:center;
-      background:#fff1f3; color:#7a1e2c; border:1px solid #ffd5dc; border-radius:10px; padding:10px 12px; margin:10px 0;
-    }
+    .alert{display:inline-flex; gap:10px; align-items:center; background:#fff1f3; color:#7a1e2c; border:1px solid #ffd5dc; border-radius:10px; padding:10px 12px; margin:10px 0}
 
-    /* A11y / focus */
     .btn:focus, .opt:focus-within{outline:2px solid var(--ifs-primary); outline-offset:2px}
-
-    /* Responsive tweaks */
     @media(max-width:520px){
       .hero h1{font-size:22px}
       .q-text{font-size:18px}
@@ -177,7 +136,7 @@
 </head>
 <body>
   <div class="container">
-    <!-- ====== Loading ====== -->
+    <!-- Loading -->
     <section id="scr-loading" class="screen active" aria-live="polite">
       <div class="load">
         <div class="spinner" role="status" aria-label="Chargement"></div>
@@ -190,13 +149,12 @@
       </div>
     </section>
 
-    <!-- ====== Welcome ====== -->
+    <!-- Welcome -->
     <section id="scr-welcome" class="screen" aria-hidden="true">
       <div class="hero">
         <h1><i class="fa-solid fa-certificate"></i> IFS Certification Quiz</h1>
         <p>Préparation à l’examen de certification IFS Food (v8)</p>
       </div>
-
       <div class="section">
         <div class="row cols-2">
           <div class="card">
@@ -219,21 +177,19 @@
           </div>
         </div>
       </div>
-
       <div class="section">
         <div class="card">
           <h3 style="margin:0 0 10px">Thèmes de cette sélection</h3>
           <div id="chips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
         </div>
       </div>
-
       <div class="section" style="display:flex; gap:10px; justify-content:center">
         <button id="btn-new" class="btn btn-warning"><i class="fa-solid fa-shuffle"></i> Nouvelle sélection</button>
         <button id="btn-start" class="btn btn-primary"><i class="fa-solid fa-play"></i> Commencer</button>
       </div>
     </section>
 
-    <!-- ====== Quiz ====== -->
+    <!-- Quiz -->
     <section id="scr-quiz" class="screen" aria-hidden="true">
       <div class="quiz-head">
         <div class="progress">
@@ -249,7 +205,6 @@
         </div>
         <div id="q-text" class="q-text">—</div>
         <div id="q-opts" class="options" role="listbox" aria-label="Choix de réponse"></div>
-
         <div class="nav">
           <div class="group">
             <button id="btn-prev" class="btn btn-light"><i class="fa-solid fa-arrow-left"></i> Précédent</button>
@@ -263,7 +218,7 @@
       </div>
     </section>
 
-    <!-- ====== Results ====== -->
+    <!-- Results -->
     <section id="scr-results" class="screen" aria-hidden="true">
       <div class="results-hero">
         <h2>Résultats</h2>
@@ -287,7 +242,7 @@
       </div>
     </section>
 
-    <!-- ====== Review ====== -->
+    <!-- Review -->
     <section id="scr-review" class="screen" aria-hidden="true">
       <div class="hero" style="background:linear-gradient(135deg,#5b6cfa,#5ad1e8)">
         <h1>Revue détaillée</h1>
@@ -301,301 +256,7 @@
     </section>
   </div>
 
-  <script>
-    // ========= Utilitaires =========
-    const $ = s => document.querySelector(s);
-    const el = (tag, attrs = {}, ...children) => {
-      const n = document.createElement(tag);
-      Object.entries(attrs).forEach(([k,v])=>{
-        if(k==='class') n.className=v;
-        else if(k==='html') n.innerHTML=v;
-        else if(k.startsWith('on') && typeof v==='function') n.addEventListener(k.substring(2), v);
-        else n.setAttribute(k,v);
-      });
-      children.forEach(c => n.append(c));
-      return n;
-    };
-    const screens = {
-      loading: $('#scr-loading'),
-      welcome: $('#scr-welcome'),
-      quiz: $('#scr-quiz'),
-      results: $('#scr-results'),
-      review: $('#scr-review'),
-    };
-    function show(name){
-      Object.values(screens).forEach(sc=>{ sc.classList.remove('active'); sc.setAttribute('aria-hidden','true'); });
-      screens[name].classList.add('active');
-      screens[name].setAttribute('aria-hidden','false');
-    }
-
-    // ========= État global =========
-    const STATE = {
-      all: [],           // toutes les questions
-      picked: [],        // 20 questions tirées
-      answers: [],       // index choisi par question (ou null)
-      seed: null,
-      timer: null,
-      timeLeft: 45*60,   // 45 minutes
-      idx: 0,            // question courante
-      passThreshold: 0.75
-    };
-
-    // ========= Seed & RNG (mulberry32) =========
-    function hashSeed(s){
-      let h = 2166136261 >>> 0;
-      for (let i=0;i<s.length;i++){ h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
-      return h >>> 0;
-    }
-    function mulberry32(a){ return function(){ let t = a += 0x6D2B79F5; t = Math.imul(t ^ t>>>15, t | 1); t ^= t + Math.imul(t ^ t>>>7, t | 61); return ((t ^ t>>>14) >>> 0) / 4294967296; } }
-
-    // ========= Chargement JSON =========
-    async function loadQuestions(){
-      const jsonUrl = new URL('ifs-questions-full.json', location.href).href;
-      $('#load-error').style.display='none';
-      $('#load-msg').textContent = 'Récupération du fichier depuis le dépôt…';
-      const res = await fetch(jsonUrl, {cache:'no-store'});
-      if(!res.ok) throw new Error('HTTP '+res.status);
-      const data = await res.json();
-      // Data normalisation
-      let questions = Array.isArray(data) ? data : (data.questions || []);
-      if(!Array.isArray(questions) || questions.length===0) throw new Error('Aucune question trouvée');
-      return { meta: data.metadata || {}, questions };
-    }
-
-    // ========= Tirage aléatoire =========
-    function pickQuestions(all, k, seedStr){
-      const seed = seedStr ? hashSeed(String(seedStr)) : Math.floor(Math.random()*1e9);
-      const rng = mulberry32(seed);
-      const idxs = all.map((_,i)=>i);
-      // Durstenfeld shuffle
-      for(let i=idxs.length-1;i>0;i--){
-        const j = Math.floor(rng()*(i+1));
-        [idxs[i], idxs[j]] = [idxs[j], idxs[i]];
-      }
-      const chosen = idxs.slice(0, Math.min(k, idxs.length)).map(i=>all[i]);
-      return { chosen, seed };
-    }
-
-    // ========= Rendu accueil =========
-    function renderWelcome(meta, picked){
-      $('#stat-total').textContent = STATE.all.length.toString();
-      $('#stat-picked').textContent = picked.length.toString();
-      $('#stat-seed').textContent = STATE.seed;
-      const cats = [...new Set(picked.map(q=>q.category).filter(Boolean))];
-      $('#stat-cats').textContent = cats.length.toString();
-      const chips = $('#chips');
-      chips.innerHTML = '';
-      cats.slice(0, 30).forEach(c=>{
-        const t = el('span', {class:'tag', style:'background:#eef6ff; color:#024eb8;'});
-        t.textContent = c;
-        chips.append(t);
-      });
-    }
-
-    // ========= Rendu question =========
-    function renderQuestion(){
-      const i = STATE.idx;
-      const q = STATE.picked[i];
-      $('#q-cat').textContent = q.category || 'Sans catégorie';
-      $('#q-num').textContent = `Question ${i+1} / ${STATE.picked.length}`;
-      $('#hint').textContent = `Question ${i+1} / ${STATE.picked.length}`;
-      $('#q-text').textContent = q.question || '—';
-      const opts = $('#q-opts'); opts.innerHTML='';
-      (q.options || []).forEach((txt, k)=>{
-        const id = `opt-${i}-${k}`;
-        const wrap = el('label', {class:'opt', for:id});
-        const input = el('input', {type:'radio', name:`q-${i}`, id, 'aria-label':`Option ${k+1}`});
-        input.checked = (STATE.answers[i] === k);
-        input.addEventListener('change', ()=>{ STATE.answers[i] = k; markSelected(); });
-        const span = el('div', {class:'opt-text'});
-        span.textContent = txt;
-        wrap.append(input, span);
-        opts.append(wrap);
-      });
-      markSelected();
-      const pct = Math.round((i)/STATE.picked.length*100);
-      $('#bar').style.width = pct+'%';
-      // boutons
-      $('#btn-prev').disabled = (i===0);
-      $('#btn-next').disabled = (i===STATE.picked.length-1);
-    }
-
-    function markSelected(){
-      document.querySelectorAll('.opt').forEach(l=>l.classList.remove('selected'));
-      const i = STATE.idx;
-      const val = STATE.answers[i];
-      if(Number.isInteger(val)){
-        const id = `opt-${i}-${val}`;
-        const lab = document.querySelector(`label[for="${id}"]`);
-        if(lab) lab.classList.add('selected');
-      }
-    }
-
-    // ========= Navigation =========
-    function prev(){ if(STATE.idx>0){ STATE.idx--; renderQuestion(); } }
-    function next(){ if(STATE.idx<STATE.picked.length-1){ STATE.idx++; renderQuestion(); } }
-
-    // ========= Chrono =========
-    function startTimer(){
-      updateTimerText();
-      STATE.timer = setInterval(()=>{
-        STATE.timeLeft--;
-        if(STATE.timeLeft<=0){
-          clearInterval(STATE.timer);
-          submit();
-        }
-        updateTimerText();
-      }, 1000);
-    }
-    function updateTimerText(){
-      const m = Math.floor(STATE.timeLeft/60);
-      const s = STATE.timeLeft%60;
-      $('#timer').textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
-    }
-
-    // ========= Calcul du score =========
-    function submit(){
-      // Empêche double submit
-      if(screens.results.classList.contains('active')) return;
-
-      // Corrige visuel de la dernière question
-      document.querySelectorAll('.opt').forEach(l=>l.classList.remove('selected','correct','incorrect'));
-
-      let good=0,bad=0,blank=0, points=0;
-      STATE.picked.forEach((q,i)=>{
-        const a = STATE.answers[i];
-        if(a==null){ blank++; return; }
-        const isGood = (a === q.correctAnswer);
-        if(isGood){ good++; points += 1; }
-        else { bad++; points -= 0.5; }
-      });
-      const total = STATE.picked.length;
-      const pct = Math.max(0, Math.min(100, Math.round((points/total)*100)));
-      const pass = (points/total) >= STATE.passThreshold;
-
-      // Résultats
-      $('#res-score').textContent = points.toFixed(2);
-      $('#res-total').textContent = '/ ' + total;
-      $('#stat-good').textContent = good;
-      $('#stat-bad').textContent = bad;
-      $('#stat-blank').textContent = blank;
-      $('#res-msg').textContent = pass ? '✅ Réussi — Bravo !' : '❌ Non atteint — Réessaie avec une nouvelle sélection';
-
-      clearInterval(STATE.timer);
-      show('results');
-    }
-
-    // ========= Revue =========
-    function renderReview(){
-      const box = $('#review-list'); box.innerHTML='';
-      STATE.picked.forEach((q,i)=>{
-        const it = el('div', {class:'rev-item'});
-        it.append(el('div', {class:'q-num', html:`<strong>Q${i+1}.</strong> <span class="tag" style="background:#0f6; color:#053"> ${q.category || '—'} </span>`}));
-        it.append(el('div', {style:'margin:8px 0 10px; font-weight:600;'}, q.question || '—'));
-
-        const wrap = el('div');
-        (q.options||[]).forEach((t,k)=>{
-          const cls = ['rev-opt'];
-          if(k === q.correctAnswer) cls.push('correct');
-          if(STATE.answers[i] === k) cls.push('user');
-          if(STATE.answers[i] === k && k !== q.correctAnswer) cls.push('incorrect');
-          const line = el('div', {class:cls.join(' ')});
-          line.innerHTML = `<i class="fa-regular fa-circle-check"></i> ${t}`;
-          wrap.append(line);
-        });
-        it.append(wrap);
-
-        if(q.explanation || q.regulation || (q.reference && (q.reference.source || q.reference.section))){
-          const exp = el('div', {class:'exp'});
-          if(q.explanation) exp.append(el('div', {}, q.explanation));
-          if(q.regulation) exp.append(el('div', {style:'font-style:italic; color:#555'}, `Référence : ${q.regulation}`));
-          if(q.reference && (q.reference.source || q.reference.section)){
-            const r = q.reference;
-            exp.append(el('div', {style:'font-style:italic; color:#555'}, `Source : ${[r.source, r.section].filter(Boolean).join(' – ')}`));
-          }
-          it.append(exp);
-        }
-        box.append(it);
-      });
-    }
-
-    // ========= Export JSON résultats =========
-    function downloadResults(){
-      const payload = {
-        seed: STATE.seed,
-        timeUsedSec: 45*60 - STATE.timeLeft,
-        answers: STATE.answers,
-        picked: STATE.picked.map(q=>({ id:q.id, category:q.category, correctAnswer:q.correctAnswer })),
-        ts: new Date().toISOString()
-      };
-      const blob = new Blob([JSON.stringify(payload,null,2)], {type:'application/json'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url; a.download = 'ifs-quiz-result.json';
-      a.click();
-      URL.revokeObjectURL(url);
-    }
-
-    // ========= Nouvelle session =========
-    function newSelection(meta){
-      const url = new URL(location.href);
-      const seedParam = url.searchParams.get('seed');
-      const { chosen, seed } = pickQuestions(STATE.all, 20, seedParam || undefined);
-      STATE.picked = chosen;
-      STATE.answers = Array(STATE.picked.length).fill(null);
-      STATE.seed = seed;
-      STATE.idx = 0;
-      STATE.timeLeft = 45*60;
-      renderWelcome(meta, STATE.picked);
-    }
-
-    // ========= Événements UI =========
-    $('#btn-prev').addEventListener('click', prev);
-    $('#btn-next').addEventListener('click', next);
-    $('#btn-clear').addEventListener('click', ()=>{ STATE.answers[STATE.idx] = null; renderQuestion(); });
-    $('#btn-submit').addEventListener('click', submit);
-    $('#btn-review').addEventListener('click', ()=>{ renderReview(); show('review'); });
-    $('#btn-back-results').addEventListener('click', ()=> show('results'));
-    $('#btn-again').addEventListener('click', ()=>{ newSelection(STATE.meta); show('welcome'); });
-    $('#btn-new').addEventListener('click', ()=> newSelection(STATE.meta));
-    $('#btn-new2').addEventListener('click', ()=>{ newSelection(STATE.meta); show('welcome'); });
-    $('#btn-dl').addEventListener('click', downloadResults);
-
-    $('#btn-start').addEventListener('click', ()=>{
-      show('quiz');
-      startTimer();
-      renderQuestion();
-    });
-
-    $('#btn-retry').addEventListener('click', async ()=>{
-      $('#load-error').style.display='none';
-      tryInit();
-    });
-
-    // ========= Initialisation =========
-    async function tryInit(){
-      show('loading');
-      try{
-        const { meta, questions } = await loadQuestions();
-        STATE.meta = meta;
-        STATE.all = questions;
-        newSelection(meta);
-        show('welcome');
-      }catch(err){
-        console.error(err);
-        $('#err-text').textContent = `Impossible de charger les questions (${err.message}). Assure-toi que "ifs-questions-full.json" est bien à la racine du dépôt et que GitHub Pages est activé.`;
-        $('#load-error').style.display='inline-block';
-        $('#load-msg').textContent = 'Échec du chargement.';
-      }
-    }
-    tryInit();
-
-    // ========= Accessibilité clavier =========
-    document.addEventListener('keydown', (e)=>{
-      if(!screens.quiz.classList.contains('active')) return;
-      if(e.key === 'ArrowRight') next();
-      if(e.key === 'ArrowLeft') prev();
-    });
-  </script>
+  <!-- JS externe (pas d'inline pour CSP) -->
+  <script src="app.js"></script>
 </body>
 </html>
