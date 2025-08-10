@@ -1,10 +1,10 @@
 {
   "metadata": {
     "title": "IFS v8 / GFSI — QCM Experts (version v7 - Équilibrée)",
-    "description": "Jeu de 135 QCM niveau expert, révisés, dédupliqués et avec une distribution aléatoire des bonnes réponses. Aligné sur les règlements UE clés.",
+    "description": "Jeu de 165 QCM niveau expert, révisés, dédupliqués et avec une distribution aléatoire des bonnes réponses. Aligné sur les règlements UE clés.",
     "version": "v7",
     "updated": "2025-08-10T10:30:00.000000Z",
-    "total_questions": 135,
+    "total_questions": 165,
     "notes": [
       "Version finale avec distribution aléatoire des bonnes réponses pour éliminer les biais.",
       "Répartition équilibrée des index 'correctAnswer' entre 0, 1, 2, et 3."
@@ -1858,6 +1858,426 @@
       "correctAnswer": 2,
       "explanation": "Le R(UE) 2023/915 (comme le 1881/2006 avant lui) interdit formellement cette pratique. Permettre la dilution reviendrait à contourner l'objectif même des teneurs maximales, qui est d'exclure du marché les produits les plus contaminés pour protéger la santé publique.",
       "regulation": "Règlement (UE) 2023/915, art. 4"
+    },
+        {
+      "id": "REG_008",
+      "category": "reglementations_generales",
+      "question": "Bien qu'il n'existe pas un règlement unique sur la 'Food Fraud', quelle exigence fondamentale du R(CE) 178/2002 constitue la base légale de sa prévention ?",
+      "options": [
+        "L'obligation de mettre en place un plan HACCP (art. 5 du 852/2004)",
+        "L'interdiction de commercialiser des denrées alimentaires dangereuses (art. 14) et de tromper les consommateurs (art. 16)",
+        "L'obligation de la déclaration nutritionnelle (R(UE) 1169/2011)",
+        "Le respect des teneurs maximales en contaminants (R(UE) 2023/915)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La lutte contre la fraude alimentaire vise à garantir que les denrées ne sont ni dangereuses (ex: mélamine dans du lait) ni trompeuses (ex: huile d'olive frelatée). Ces deux piliers sont définis dans le 'General Food Law' et constituent le fondement réglementaire de toute démarche de type VACCP.",
+      "regulation": "Règlement (CE) n° 178/2002, art. 8, 14 & 16"
+    },
+    {
+      "id": "MATE_018",
+      "category": "materiaux_contact",
+      "question": "Le R(UE) 2018/213 fixe des restrictions spécifiques pour le bisphénol A (BPA). Quelle est l'une de ses principales dispositions ?",
+      "options": [
+        "Une interdiction totale du BPA dans tous les matériaux au contact des denrées alimentaires sans exception",
+        "Une limite de migration spécifique plus stricte pour les vernis et revêtements, et une interdiction de son utilisation pour les articles destinés aux nourrissons et enfants en bas âge",
+        "L'obligation d'étiqueter 'Contient du BPA' sur tous les emballages concernés",
+        "L'autorisation de son utilisation uniquement dans les plastiques recyclés"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ce règlement a renforcé les mesures sur le BPA en abaissant la LMS pour les vernis (présents par exemple à l'intérieur des boîtes de conserve) et en confirmant l'interdiction totale pour les biberons et autres articles de puériculture.",
+      "regulation": "Règlement (UE) 2018/213"
+    },
+    {
+      "id": "CONT_017",
+      "category": "contaminants_residus",
+      "question": "Le R(UE) 2023/915 a introduit des teneurs maximales pour certains contaminants perfluoroalkylés (PFAS). Dans quelle catégorie de denrées ces limites sont-elles particulièrement ciblées ?",
+      "options": [
+        "Les fruits et légumes cultivés en serre",
+        "Uniquement les produits laitiers et les fromages",
+        "Les huiles végétales et les margarines",
+        "Les œufs, la viande et certains produits de la pêche"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Les PFAS sont des polluants persistants qui s'accumulent dans la chaîne alimentaire. Les premières limites maximales harmonisées au niveau de l'UE ciblent les produits d'origine animale où la bioaccumulation est la plus probable (œufs, produits de la pêche, abats et viandes).",
+      "regulation": "Règlement (UE) 2023/915, Annexe I"
+    },
+    {
+      "id": "HYG_013",
+      "category": "hygiene_securite",
+      "question": "Selon le R(CE) 853/2004, quel traitement de congélation est reconnu comme efficace pour tuer les parasites viables dans les produits de la pêche destinés à être consommés crus ?",
+      "options": [
+        "Une congélation à -18 °C pendant au moins 12 heures",
+        "Une congélation à cœur à -20 °C pendant au moins 24 heures, ou à -35 °C pendant au moins 15 heures",
+        "Une congélation rapide à -10 °C pendant 48 heures",
+        "Une congélation lente à -5 °C pendant au moins 7 jours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le règlement sur l'hygiène des denrées d'origine animale spécifie les couples temps/température reconnus pour la maîtrise du danger 'parasites' (ex: Anisakis). Le respect de l'un de ces barèmes est un point de contrôle critique (CCP) pour les sushis, sashimis, etc.",
+      "regulation": "Règlement (CE) n° 853/2004, Annexe III, Section VIII, Chapitre III, D"
+    },
+    {
+      "id": "ETIQ_023",
+      "category": "etiquetage_nutrition",
+      "question": "Selon la Directive 2001/110/CE ('Directive Miel'), si un miel est un mélange de miels originaires de plusieurs pays de l'UE et hors UE, quelle mention d'origine est autorisée sur l'étiquette ?",
+      "options": [
+        "Uniquement le nom et l'adresse de l'emballeur",
+        "'Mélange de miels'",
+        "'Mélange de miels originaires de l'UE et de pays non membres de l'UE'",
+        "'Miel d'origine internationale'"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La 'Directive Miel' impose des règles d'étiquetage précises sur l'origine. Si le miel provient de plus d'un État membre ou pays tiers, des mentions spécifiques comme celle-ci sont requises pour informer le consommateur, bien que des discussions soient en cours pour exiger plus de précision.",
+      "regulation": "Directive 2001/110/CE du Conseil"
+    },
+    {
+      "id": "PROD_014",
+      "category": "produits_specifiques",
+      "question": "Dans le R(UE) 2018/848 sur la production biologique, quelle est la règle générale concernant l'utilisation d'arômes ?",
+      "options": [
+        "Tous les arômes sont autorisés s'ils sont déclarés",
+        "Seuls les arômes naturels ou les préparations aromatisantes naturelles peuvent être utilisés",
+        "L'utilisation de tout arôme, même naturel, est interdite",
+        "Les arômes de synthèse sont autorisés à condition de ne pas dépasser 1% du produit"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La réglementation biologique restreint fortement l'utilisation des arômes. Le principe est de n'autoriser que les substances aromatisantes naturelles et les préparations aromatisantes naturelles, excluant de fait les arômes de synthèse.",
+      "regulation": "Règlement (UE) 2018/848, art. 31 et actes d'exécution"
+    },
+    {
+      "id": "MATE_019",
+      "category": "materiaux_contact",
+      "question": "La Directive 84/500/CEE concerne les objets en céramique. Quelle substance dangereuse est spécifiquement réglementée par ce texte ?",
+      "options": [
+        "Le formaldéhyde et la mélamine",
+        "Les phtalates",
+        "Le plomb et le cadmium",
+        "Les amines aromatiques primaires"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cette directive, l'une des plus anciennes mesures spécifiques pour les FCM, vise à limiter la migration de plomb et de cadmium à partir des objets en céramique (plats, tasses, assiettes...) pour protéger la santé des consommateurs.",
+      "regulation": "Directive 84/500/CEE du Conseil"
+    },
+    {
+      "id": "MICR_010",
+      "category": "microbiologie",
+      "question": "Le R(CE) 2073/2005 fixe un critère d'hygiène des procédés pour l'histamine dans certains produits de la pêche. Quelle est la cause principale de la formation d'histamine ?",
+      "options": [
+        "Une contamination par des métaux lourds pendant la pêche",
+        "La prolifération de parasites dans la chair du poisson",
+        "Une rupture de la chaîne du froid, permettant à certaines bactéries de dégrader l'histidine (un acide aminé) en histamine",
+        "L'utilisation d'additifs non autorisés pendant la transformation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L'histamine est une toxine qui n'est pas présente dans le poisson frais mais qui est produite post-mortem par des bactéries si la température n'est pas maintenue suffisamment basse. Le critère vise donc à vérifier la bonne maîtrise de la chaîne du froid.",
+      "regulation": "Règlement (CE) n° 2073/2005, Annexe I"
+    },
+    {
+      "id": "CTRL_008",
+      "category": "controles_officiels",
+      "question": "Quel est le rôle des Laboratoires de Référence de l'Union Européenne (LR-UE) désignés par le R(UE) 2017/625 ?",
+      "options": [
+        "Réaliser tous les prélèvements lors des contrôles officiels à la place des autorités nationales",
+        "Fournir une expertise scientifique, développer des méthodes d'analyse et coordonner le réseau des laboratoires nationaux de référence",
+        "Délivrer les certifications IFS et BRCGS aux entreprises",
+        "Agir comme une cour d'appel en cas de litige sur un résultat d'analyse"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Les LR-UE sont des piliers du système de contrôle. Ils ne réalisent pas les analyses de routine, mais ils garantissent l'harmonisation et la fiabilité des méthodes analytiques utilisées par les laboratoires officiels dans tous les États membres.",
+      "regulation": "Règlement (UE) 2017/625, Titre III, Chapitre I"
+    },
+    {
+      "id": "CONT_018",
+      "category": "contaminants_residus",
+      "question": "Le R(UE) 2023/915 fixe des teneurs maximales pour les alcaloïdes tropaniques (atropine, scopolamine). Dans quels types de produits sont-ils le plus souvent retrouvés ?",
+      "options": [
+        "Dans les produits de la pêche fumés",
+        "Dans les produits à base de céréales (surtout sarrasin, millet, sorgho) et les tisanes",
+        "Dans les jus de fruits et les nectars",
+        "Dans les produits laitiers fermentés"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Les alcaloïdes tropaniques sont des toxines naturelles produites par certaines plantes (ex: Datura). Leur présence dans les céréales est due à une contamination accidentelle des récoltes par ces mauvaises herbes. Des limites sont fixées pour protéger les consommateurs, notamment les nourrissons.",
+      "regulation": "Règlement (UE) 2023/915, Annexe I"
+    },
+    {
+      "id": "ETIQ_024",
+      "category": "etiquetage_nutrition",
+      "question": "Selon le R(UE) 1169/2011, que doit faire un exploitant s'il modifie volontairement la composition nutritionnelle d'un produit (ex: réduction du sel) ?",
+      "options": [
+        "Il peut conserver l'ancienne déclaration nutritionnelle pendant un an",
+        "Il n'a pas l'obligation de mettre à jour la déclaration nutritionnelle",
+        "Il est responsable de s'assurer que les informations sur l'étiquette restent exactes et doit mettre à jour la déclaration en conséquence",
+        "Il doit uniquement informer ses distributeurs de la modification"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L'exploitant du secteur alimentaire sous le nom duquel la denrée est commercialisée est responsable de l'exactitude des informations sur l'étiquette. Toute modification intentionnelle de la recette ayant un impact sur les valeurs nutritionnelles doit entraîner une mise à jour de l'étiquetage.",
+      "regulation": "Règlement (UE) n° 1169/2011, art. 8"
+    },
+    {
+      "id": "REG_009",
+      "category": "reglementations_generales",
+      "question": "Le 'Paquet Hygiène' est un ensemble de règlements entrés en application en 2006. Lequel de ces textes n'en fait PAS partie intégrante ?",
+      "options": [
+        "R(CE) 852/2004 (hygiène générale)",
+        "R(CE) 853/2004 (hygiène des denrées d'origine animale)",
+        "R(UE) 1169/2011 (information des consommateurs)",
+        "R(CE) 854/2004 (organisation des contrôles officiels pour les DOA, maintenant abrogé)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Le R(UE) 1169/2011, bien qu'essentiel, est postérieur et concerne l'information du consommateur (INCO). Le 'Paquet Hygiène' fait spécifiquement référence à la refonte de la législation sur l'hygiène et les contrôles associés (852, 853, 854, 882/2004...).",
+      "regulation": "Paquet Hygiène (2004)"
+    },
+    {
+      "id": "HYG_014",
+      "category": "hygiene_securite",
+      "question": "Quelle est la finalité d'un critère d'hygiène des procédés pour les Entérobactéries sur les carcasses après l'habillage ?",
+      "options": [
+        "Garantir que la viande est stérile",
+        "Éliminer totalement la bactérie E. coli",
+        "Vérifier l'efficacité des bonnes pratiques d'hygiène durant le processus d'abattage et d'éviscération",
+        "Ce critère s'applique uniquement aux carcasses destinées à l'exportation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Les Entérobactéries sont des indicateurs de contamination fécale. Le suivi de leur niveau sur les carcasses est un moyen de vérifier que les opérations (dépouille, éviscération) ont été menées de manière hygiénique, sans souiller la viande.",
+      "regulation": "Règlement (CE) n° 2073/2005, Annexe I"
+    },
+    {
+      "id": "TRAC_009",
+      "category": "traçabilite",
+      "question": "Un exploitant doit-il inclure les matériaux d'emballage (FCM) dans son système de traçabilité 'amont' ?",
+      "options": [
+        "Non, la traçabilité ne concerne que les ingrédients alimentaires",
+        "Uniquement s'il s'agit de matériaux actifs ou intelligents",
+        "Oui, le R(CE) 1935/2004 exige que les exploitants puissent identifier le fournisseur de chaque lot de matériau au contact",
+        "Seulement si le client final le demande explicitement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "L'article 17 du R(CE) 1935/2004 étend l'obligation de traçabilité aux matériaux au contact. Un exploitant du secteur alimentaire doit donc être capable d'identifier de qui il a reçu ses emballages (traçabilité amont).",
+      "regulation": "Règlement (CE) n° 1935/2004, art. 17"
+    },
+    {
+      "id": "PROD_015",
+      "category": "produits_specifiques",
+      "question": "Selon le R(CE) 1829/2003, un étiquetage OGM est-il requis si la présence d'un OGM autorisé est fortuite et inférieure à un certain seuil ?",
+      "options": [
+        "Non, un étiquetage n'est pas requis si cette présence est involontaire et que sa proportion ne dépasse pas 0,9% de l'ingrédient",
+        "Oui, tout niveau de détection, même infime, impose un étiquetage",
+        "Non, un seuil de tolérance de 5% est appliqué",
+        "L'étiquetage dépend de la décision de l'autorité compétente locale"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le règlement prévoit ce seuil technique de 0,9% pour la présence fortuite et techniquement inévitable d'OGM autorisés. Au-dessus de ce seuil, l'étiquetage devient obligatoire, même si la présence est accidentelle.",
+      "regulation": "Règlement (CE) n° 1829/2003, art. 12"
+    },
+    {
+      "id": "ADD_013",
+      "category": "additifs_enzymes",
+      "question": "Quelle est la principale raison pour laquelle l'aspartame (E951) doit être accompagné de la mention 'contient une source de phénylalanine' ?",
+      "options": [
+        "Parce que la phénylalanine est un allergène majeur",
+        "Parce que la phénylalanine est un acide aminé essentiel que l'on souhaite mettre en valeur",
+        "Parce que les personnes atteintes de phénylcétonurie (PCU), une maladie génétique rare, doivent éviter cet acide aminé",
+        "Pour indiquer que le produit a un goût sucré"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Il s'agit d'une exigence d'étiquetage de sécurité spécifique. La phénylalanine n'est pas dangereuse pour la population générale, mais elle est toxique pour les personnes atteintes de PCU. Cette mention est donc une information de santé cruciale pour ce groupe de consommateurs.",
+      "regulation": "Règlement (UE) n° 1169/2011, Annexe III"
+    },
+    {
+      "id": "CONT_019",
+      "category": "contaminants_residus",
+      "question": "Le R(UE) 2023/915 fixe des limites pour l'acide érucique. Quelle est la principale source de ce contaminant dans l'alimentation ?",
+      "options": [
+        "La migration depuis les emballages en plastique",
+        "Les huiles et graisses végétales, notamment l'huile de colza ou de moutarde non sélectionnée",
+        "Les produits de la mer pêchés en eaux profondes",
+        "Le processus de fumage des viandes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "L'acide érucique est un acide gras naturellement présent dans certaines plantes de la famille des Brassicaceae. Les variétés modernes de colza ont été sélectionnées pour en avoir une très faible teneur. Les limites visent à contrôler l'exposition via les huiles et les aliments qui en contiennent (ex: moutarde, aliments pour nourrissons).",
+      "regulation": "Règlement (UE) 2023/915, Annexe I"
+    },
+    {
+      "id": "MATE_020",
+      "category": "materiaux_contact",
+      "question": "Un matériau plastique destiné au contact répété avec les aliments (ex: une boîte de conservation) est testé pour la migration. Comment le test doit-il être mené ?",
+      "options": [
+        "Le test n'est réalisé qu'une seule fois dans les conditions les plus sévères",
+        "Le test est réalisé trois fois de suite sur le même échantillon, et la conformité est vérifiée sur le résultat de la troisième migration",
+        "Le test est répété jusqu'à ce que la migration devienne nulle",
+        "Le résultat du premier test de migration est divisé par trois"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le R(UE) 10/2011 précise que pour les usages répétés, la migration a tendance à diminuer. Le test est donc effectué trois fois, et c'est le troisième résultat qui est comparé à la limite, car il est considéré comme le plus représentatif de l'usage à long terme. La migration ne doit pas augmenter entre les tests.",
+      "regulation": "Règlement (UE) n° 10/2011, Annexe V, Chapitre 3"
+    },
+    {
+      "id": "ETIQ_025",
+      "category": "etiquetage_nutrition",
+      "question": "Selon le R(UE) 1169/2011, qu'est-ce qu'un 'ingrédient composé' ?",
+      "options": [
+        "Un ingrédient qui a été génétiquement modifié",
+        "Un produit qui est lui-même le produit de plusieurs ingrédients, comme une sauce ou une préparation de fruits utilisée dans un yaourt",
+        "Un additif alimentaire qui a plusieurs fonctions technologiques",
+        "Un ingrédient qui contient des allergènes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Un ingrédient composé (ex: 'mayonnaise' dans une salade composée) a ses propres règles d'étiquetage. Ses propres composants doivent en principe être détaillés entre parenthèses dans la liste d'ingrédients du produit final, sauf exceptions.",
+      "regulation": "Règlement (UE) n° 1169/2011, art. 2 & Annexe VII"
+    },
+    {
+      "id": "HYG_015",
+      "category": "hygiene_securite",
+      "question": "Le R(CE) 853/2004 définit des exigences pour les centres de purification des mollusques bivalves vivants. Quel est l'objectif principal de la purification ?",
+      "options": [
+        "Augmenter la taille des mollusques avant la vente",
+        "Améliorer leur goût en les plaçant dans une eau plus salée",
+        "Réduire la contamination microbiologique (ex: E. coli, Salmonella) en permettant aux mollusques de filtrer de l'eau de mer propre pendant une période contrôlée",
+        "Blanchir la coquille pour des raisons esthétiques"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Les mollusques, étant des filtreurs, peuvent concentrer les pathogènes présents dans leur environnement. La purification est un processus qui consiste à les placer dans des bassins d'eau de mer propre pour leur permettre d'expulser ces micro-organismes, les rendant ainsi propres à la consommation.",
+      "regulation": "Règlement (CE) n° 853/2004, Annexe III, Section VII"
+    },
+    {
+      "id": "PROD_016",
+      "category": "produits_specifiques",
+      "question": "Dans le R(UE) 2018/848, que signifie le principe de 'précaution' appliqué à la production biologique ?",
+      "options": [
+        "L'interdiction totale d'importer des produits biologiques",
+        "Que les opérateurs doivent prendre des mesures proportionnées et appropriées pour éviter la contamination par des produits ou substances non autorisés",
+        "L'obligation de réaliser des analyses de pesticides sur tous les lots de produits finis",
+        "Que tous les produits biologiques doivent avoir une DLC plus courte"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ce principe est crucial pour maintenir l'intégrité des produits biologiques. Il impose aux opérateurs une obligation de moyens : mettre en place des mesures (ex: séparation des stocks, nettoyage) pour gérer les risques de contamination par des pesticides ou des OGM provenant de l'agriculture conventionnelle.",
+      "regulation": "Règlement (UE) 2018/848, art. 28"
+    },
+    {
+      "id": "REG_010",
+      "category": "reglementations_generales",
+      "question": "Si une législation nationale d'un État membre de l'UE entre en conflit avec un Règlement européen, quelle règle s'applique ?",
+      "options": [
+        "La législation nationale prévaut toujours",
+        "Le Règlement européen a primauté sur la législation nationale et doit être appliqué directement",
+        "L'entreprise peut choisir d'appliquer la règle qui lui est la plus favorable",
+        "La question doit être tranchée par la Cour de Justice de l'Union Européenne au cas par cas"
+      ],
+      "correctAnswer": 1,
+      "explanation": "C'est le principe de la primauté du droit de l'Union européenne. Un règlement est d'application directe et obligatoire dans tous les États membres et l'emporte sur toute disposition nationale contraire.",
+      "regulation": "Principe de primauté du droit de l'Union Européenne"
+    },
+    {
+      "id": "ADD_014",
+      "category": "additifs_enzymes",
+      "question": "Certains colorants (les 'couleurs de Southampton') sont soumis à un étiquetage supplémentaire selon le R(CE) 1333/2008. Quelle mention est requise ?",
+      "options": [
+        "'Peut avoir des effets indésirables sur l'activité et l'attention chez les enfants'",
+        "'Couleur d'origine synthétique'",
+        "'À consommer avec modération'",
+        "'Ce produit contient des colorants'"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Suite à une étude suspectant un lien entre certains colorants azoïques et l'hyperactivité chez les enfants, la réglementation a imposé cette mention d'avertissement obligatoire pour les denrées contenant les colorants concernés (ex: E110, E122, E129...).",
+      "regulation": "Règlement (CE) n° 1333/2008, Annexe V"
+    },
+    {
+      "id": "MICR_011",
+      "category": "microbiologie",
+      "question": "Le R(CE) 2073/2005 peut-il être modifié pour inclure de nouveaux critères microbiologiques ?",
+      "options": [
+        "Non, la liste des critères est définitive et ne peut plus être changée",
+        "Oui, la Commission peut modifier les annexes pour ajouter ou changer des critères, sur la base de nouvelles évaluations de risques de l'EFSA",
+        "Seuls les États membres peuvent ajouter des critères applicables sur leur propre territoire",
+        "La modification n'est possible que si toutes les associations industrielles européennes sont d'accord"
+      ],
+      "correctAnswer": 1,
+      "explanation": "La réglementation sur les critères microbiologiques est évolutive. Elle est régulièrement mise à jour pour tenir compte des nouvelles connaissances scientifiques, des nouveaux dangers émergents et des données de prévalence, comme ce fut le cas avec le R(CE) 1441/2007.",
+      "regulation": "Règlement (CE) n° 2073/2005"
+    },
+    {
+      "id": "CONT_020",
+      "category": "contaminants_residus",
+      "question": "Que sont les 'alcaloïdes pyrrolizidiniques', dont les teneurs sont fixées dans le R(UE) 2023/915 ?",
+      "options": [
+        "Des sous-produits de la torréfaction du café",
+        "Des toxines produites par des moisissures du genre Aspergillus",
+        "Des toxines naturelles produites par de nombreuses espèces de plantes pour se défendre, qui peuvent contaminer des tisanes, des épices ou du miel",
+        "Des résidus de produits de nettoyage chlorés"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Comme les alcaloïdes tropaniques, les alcaloïdes pyrrolizidiniques sont des toxines végétales. Leur présence accidentelle dans des produits comme les tisanes, les thés ou certaines épices fait l'objet d'une surveillance et de teneurs maximales pour protéger les consommateurs.",
+      "regulation": "Règlement (UE) 2023/915, Annexe I"
+    },
+    {
+      "id": "ETIQ_026",
+      "category": "etiquetage_nutrition",
+      "question": "Selon le R(UE) 1169/2011, la 'hauteur de x' pour la taille des caractères de l'étiquetage se réfère à :",
+      "options": [
+        "La hauteur de la lettre majuscule 'X'",
+        "La distance entre la ligne de base et la ligne médiane des lettres minuscules, illustrée par la lettre 'x'",
+        "La largeur maximale d'un caractère",
+        "Une unité de mesure définie par l'imprimeur de l'étiquette"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le règlement définit précisément ce critère de lisibilité. La 'hauteur de x' est une mesure typographique standard qui se réfère à la hauteur du corps principal des lettres minuscules, garantissant ainsi une taille de police cohérente et lisible.",
+      "regulation": "Règlement (UE) n° 1169/2011, Annexe IV"
+    },
+    {
+      "id": "DOA_010",
+      "category": "produits_specifiques",
+      "question": "Pour la production de gélatine destinée à la consommation humaine (R(CE) 853/2004), quelle matière première est interdite ?",
+      "options": [
+        "Les peaux de porcs provenant d'animaux inspectés et abattus en abattoir",
+        "Les os de bovins sains abattus en abattoir",
+        "Les peaux et cuirs qui ont subi un processus de tannage",
+        "Les os de volailles saines"
+      ],
+      "correctAnswer": 2,
+      "explanation": "La réglementation est très stricte sur l'origine des matières premières pour la gélatine et le collagène. Le tannage est un traitement chimique qui rend les peaux impropres à la consommation humaine. Seules les matières provenant d'animaux jugés sains peuvent être utilisées.",
+      "regulation": "Règlement (CE) n° 853/2004, Annexe III, Section XIV"
+    },
+    {
+      "id": "HYG_016",
+      "category": "hygiene_securite",
+      "question": "Un exploitant peut-il utiliser des guides de bonnes pratiques d'hygiène (GBPH) nationaux ou européens pour l'aider à respecter la législation ?",
+      "options": [
+        "Non, chaque entreprise doit développer toutes ses procédures à partir de zéro",
+        "Oui, l'utilisation de ces guides est fortement encouragée par la législation comme un outil pratique pour appliquer les principes d'hygiène et HACCP",
+        "Oui, mais uniquement si le guide a été rédigé par l'EFSA",
+        "Non, ces guides sont réservés à l'usage des autorités de contrôle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le R(CE) 852/2004 reconnaît et promeut activement le développement de guides de bonnes pratiques par les secteurs professionnels. Ils sont un outil clé, notamment pour les PME, pour mettre en œuvre des mesures de maîtrise efficaces et reconnues.",
+      "regulation": "Règlement (CE) n° 852/2004, Chapitre III"
+    },
+    {
+      "id": "MATE_021",
+      "category": "materiaux_contact",
+      "question": "Que sont les substances 'à double usage' (dual use) dans le contexte des FCM en plastique ?",
+      "options": [
+        "Des substances qui peuvent être utilisées à la fois pour le contact alimentaire et pour des applications industrielles non alimentaires",
+        "Des substances qui sont autorisées à la fois comme additifs alimentaires et/ou arômes, et comme monomères ou additifs dans la fabrication des plastiques",
+        "Des emballages qui peuvent être utilisés deux fois avant d'être jetés",
+        "Des substances qui changent de couleur en fonction de la température"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Certaines substances ont une double autorisation. Leur migration depuis l'emballage doit respecter les limites de migration fixées par la législation FCM, et leur contribution totale dans l'aliment (par migration + ajout intentionnel) ne doit pas dépasser la limite fixée par la législation sur les additifs/arômes.",
+      "regulation": "Règlement (UE) n° 10/2011"
+    },
+    {
+      "id": "REG_011",
+      "category": "reglementations_generales",
+      "question": "Quelle est la différence juridique fondamentale entre un 'Règlement' de l'UE et une 'Directive' de l'UE ?",
+      "options": [
+        "Un Règlement est une recommandation, tandis qu'une Directive est une loi contraignante",
+        "Il n'y a aucune différence, les deux termes sont interchangeables",
+        "Un Règlement est directement applicable dans tous les États membres, tandis qu'une Directive fixe un objectif que les États doivent atteindre en transposant la règle dans leur droit national",
+        "Un Règlement est adopté par la Commission, tandis qu'une Directive est adoptée par le Parlement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "C'est une distinction clé du droit européen. Un règlement (ex: 178/2002) s'applique tel quel partout. Une directive (ex: 2002/46/CE sur les compléments) donne une marge de manœuvre aux États pour l'intégrer dans leurs lois nationales, ce qui peut entraîner de légères différences d'application.",
+      "regulation": "Droit de l'Union Européenne (TFUE)"
     }
   ]
 }
