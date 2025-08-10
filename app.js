@@ -342,7 +342,7 @@ function newSelection(meta){
   STATE.answers = Array(STATE.picked.length).fill(null);
   STATE.seed = seed;
   STATE.idx = 0;
-  STATE.timeLeft = 45*60;
+  STATE.timeLeft = 30*60;
   renderWelcome(meta, STATE.picked);
 }
 
