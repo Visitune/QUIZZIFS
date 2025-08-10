@@ -108,6 +108,68 @@ function mulberry32(a){
 }
 
 // ========= Picking =========
+
+// ===== Randomization: memory + stratified selection =====
+function getUsedIds() {
+  try { return JSON.parse(localStorage.getItem('ifs_used_ids')||'[]'); } catch(e){ return []; }
+}
+function setUsedIds(arr) {
+  // keep last 400 to avoid unbounded growth
+  localStorage.setItem('ifs_used_ids', JSON.stringify(arr.slice(-400)));
+}
+
+/**
+ * pickQuestionsStratified
+ * - évite de reposer trop souvent les mêmes questions entre sessions (mémoire locale)
+ * - couvre mieux les catégories (stratification simple)
+ * @param {Array} all - toutes les questions
+ * @param {number} k - nombre de questions voulues
+ * @param {string|number=} seedStr - graine facultative
+ * @returns {{chosen:Array, seed:number}}
+ */
+function pickQuestionsStratified(all, k, seedStr){
+  const used = new Set(getUsedIds());
+  let pool = all.filter(q => !used.has(q.id));
+  if (pool.length < k) { // pool épuisé → on réinitialise
+    pool = all.slice();
+  }
+
+  const seed = seedStr ? hashSeed(String(seedStr)) : Math.floor(Math.random()*1e9);
+  const rng = mulberry32(seed);
+
+  const cats = [...new Set(pool.map(q=>q.category))];
+  const perCat = Math.max(1, Math.floor(k / Math.max(1, cats.length)));
+
+  const byCat = new Map(cats.map(c => [c, []]));
+  pool.forEach(q => byCat.get(q.category).push(q));
+
+  const shuffleIdx = (n) => {
+    const idxs = Array.from({length:n}, (_,i)=>i);
+    for(let i=n-1;i>0;i--){
+      const j = Math.floor(rng()*(i+1));
+      [idxs[i], idxs[j]] = [idxs[j], idxs[i]];
+    }
+    return idxs;
+  };
+
+  const pickFrom = (arr, n) => {
+    const idxs = shuffleIdx(arr.length).slice(0, Math.min(n, arr.length));
+    return idxs.map(i=>arr[i]);
+  };
+
+  let chosen = [];
+  cats.forEach(c => chosen.push(...pickFrom(byCat.get(c), perCat)));
+  // compléter jusqu’à k avec le reste du pool mélangé
+  const remainder = pool.filter(q => !chosen.includes(q));
+  chosen.push(...pickFrom(remainder, Math.max(0, k - chosen.length)));
+
+  // mettre à jour la mémoire
+  const newUsed = (getUsedIds().concat(chosen.map(q=>q.id)));
+  setUsedIds(newUsed);
+
+  return { chosen, seed };
+}
+// ===== End memory + stratified selection =====
 function pickQuestions(all, k, seedStr){
   const seed = seedStr ? hashSeed(String(seedStr)) : Math.floor(Math.random()*1e9);
   const rng = mulberry32(seed);
